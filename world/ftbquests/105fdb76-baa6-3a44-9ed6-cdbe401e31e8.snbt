@@ -1,0 +1,12 @@
+{
+	version: 1
+	uuid: "105fdb76baa63a449ed6cdbe401e31e8"
+	name: "Zerceus#105fdb76"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}

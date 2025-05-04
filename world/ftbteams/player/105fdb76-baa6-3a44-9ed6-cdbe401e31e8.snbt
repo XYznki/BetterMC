@@ -1,0 +1,15 @@
+{
+	id: "105fdb76-baa6-3a44-9ed6-cdbe401e31e8"
+	type: "player"
+	player_name: "Zerceus"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "Zerceus"
+		"ftbteams:description": ""
+		"ftbteams:color": "#7FFF59"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}
