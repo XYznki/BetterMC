@@ -1,0 +1,12 @@
+{
+	version: 1
+	uuid: "8679e55703c93c499442217618d64e66"
+	name: "Steady#8679e557"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}

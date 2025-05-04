@@ -1,0 +1,15 @@
+{
+	id: "8679e557-03c9-3c49-9442-217618d64e66"
+	type: "player"
+	player_name: "Steady"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "Steady"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FF8F59"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

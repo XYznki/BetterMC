@@ -1,0 +1,15 @@
+{
+	id: "e9a20ad6-8b80-3132-a220-f725997f8648"
+	type: "player"
+	player_name: "SongHao0801"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "SongHao0801"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59FFE3"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

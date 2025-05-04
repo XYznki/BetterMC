@@ -1,0 +1,12 @@
+{
+	version: 1
+	uuid: "eb083b21240139739ad913c208a13891"
+	name: "Zephyr#eb083b21"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}

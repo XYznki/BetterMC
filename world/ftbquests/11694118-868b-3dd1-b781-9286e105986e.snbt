@@ -1,0 +1,12 @@
+{
+	version: 1
+	uuid: "11694118868b3dd1b7819286e105986e"
+	name: "loklokk#11694118"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}

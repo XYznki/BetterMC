@@ -1,0 +1,12 @@
+{
+	version: 1
+	uuid: "e9a20ad68b803132a220f725997f8648"
+	name: "SongHao0801#e9a20ad6"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}

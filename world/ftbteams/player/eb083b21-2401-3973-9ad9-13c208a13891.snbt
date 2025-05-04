@@ -1,0 +1,15 @@
+{
+	id: "eb083b21-2401-3973-9ad9-13c208a13891"
+	type: "player"
+	player_name: "Zephyr"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "Zephyr"
+		"ftbteams:description": ""
+		"ftbteams:color": "#A9FF59"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}
