@@ -671,6 +671,7 @@
       "apple": "2025-05-04 16:59:13 +0800",
       "mutton": "2025-05-04 21:58:25 +0800",
       "bread": "2025-05-04 16:51:49 +0800",
+      "rotten_flesh": "2025-05-06 21:34:47 +0800",
       "melon_slice": "2025-05-04 22:03:44 +0800"
     },
     "done": false
@@ -2612,6 +2613,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2025-05-06 21:43:46 +0800",
       "minecraft:skeleton": "2025-05-04 17:07:46 +0800",
       "minecraft:spider": "2025-05-04 16:59:56 +0800",
       "minecraft:creeper": "2025-05-04 17:07:02 +0800",
@@ -5486,21 +5488,99 @@
     },
     "done": true
   },
-  "netherexp:recipes/smooth_netherrack/smooth_netherrack": {
+  "minecraft:recipes/misc/iron_ingot_from_blasting_iron_ore": {
     "criteria": {
-      "has_item": "2025-05-05 21:45:25 +0800"
+      "has_iron_ore": "2025-05-05 21:17:47 +0800"
     },
     "done": true
   },
-  "betternether:recipes/misc/copy_bowl_upgrade": {
+  "minecraft:recipes/misc/iron_ingot_from_smelting_iron_ore": {
     "criteria": {
-      "has_diamond": "2025-05-05 22:33:35 +0800"
+      "has_iron_ore": "2025-05-05 21:17:47 +0800"
     },
     "done": true
   },
-  "farmersdelight:recipes/decorations/basket": {
+  "betterend:recipes/misc/end_stone_smelter": {
     "criteria": {
-      "has_canvas": "2025-05-05 21:34:54 +0800"
+      "has_tag_c_furnaces": "2025-05-05 21:17:53 +0800"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/building_blocks/food_prep_table": {
+    "criteria": {
+      "has_item": "2025-05-05 21:17:53 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/smoker": {
+    "criteria": {
+      "has_furnace": "2025-05-05 21:17:53 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/iron_leggings_repairing": {
+    "criteria": {
+      "has_iron_leggings": "2025-05-05 21:18:04 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/chainmail_boots_repairing": {
+    "criteria": {
+      "has_chainmail_boots": "2025-05-05 21:18:04 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/chest_minecart": {
+    "criteria": {
+      "has_minecart": "2025-05-05 21:20:06 +0800"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/dispenser_minecart": {
+    "criteria": {
+      "has_minecart": "2025-05-05 21:20:06 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/tnt_minecart": {
+    "criteria": {
+      "has_minecart": "2025-05-05 21:20:06 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/hopper_minecart": {
+    "criteria": {
+      "has_minecart": "2025-05-05 21:20:06 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/rail": {
+    "criteria": {
+      "has_minecart": "2025-05-05 21:20:06 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/furnace_minecart": {
+    "criteria": {
+      "has_minecart": "2025-05-05 21:20:06 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye": {
+    "criteria": {
+      "has_lapis_lazuli": "2025-05-05 21:23:34 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_lapis_lazuli": "2025-05-05 21:23:34 +0800"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/lapis_bricks": {
+    "criteria": {
+      "has_lapis_lazuli": "2025-05-05 21:23:34 +0800"
     },
     "done": true
   },
@@ -5510,99 +5590,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/light_blue_stained_glass": {
-    "criteria": {
-      "has_glass": "2025-05-05 22:22:21 +0800"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/blossom_berry_jelly_potion": {
-    "criteria": {
-      "has_sugar": "2025-05-05 22:20:12 +0800"
-    },
-    "done": true
-  },
-  "betternether:all_the_biomes": {
-    "criteria": {
-      "betternether:old_warped_woods": "2025-05-05 21:43:10 +0800"
-    },
-    "done": false
-  },
-  "minecraft:nether/brew_potion": {
-    "criteria": {
-      "potion": "2025-05-05 21:50:11 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/mossy_cobbled_andesite_from_andesite_stonecutting": {
-    "criteria": {
-      "has_andesite": "2025-05-05 21:37:25 +0800"
-    },
-    "done": true
-  },
-  "minecraft:nether/explore_nether": {
-    "criteria": {
-      "minecraft:warped_forest": "2025-05-05 21:59:10 +0800"
-    },
-    "done": false
-  },
-  "stoneworks:recipes/building_blocks/andesite_tiles_from_andesite_stonecutting": {
-    "criteria": {
-      "has_andesite": "2025-05-05 21:37:25 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/polished_diorite": {
     "criteria": {
       "has_diorite": "2025-05-05 21:26:55 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/diamond_sword": {
-    "criteria": {
-      "has_diamond": "2025-05-05 22:33:35 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/jukebox": {
-    "criteria": {
-      "has_diamond": "2025-05-05 22:33:35 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/cracked_netherrack_bricks_from_netherrack_stonecutting": {
-    "criteria": {
-      "has_netherrack": "2025-05-05 21:45:25 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/golden_apple": {
-    "criteria": {
-      "has_gold_ingot": "2025-05-05 22:34:50 +0800"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/creeper_trophy": {
-    "criteria": {
-      "has_creeper_trophy": "2025-05-05 22:32:51 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/golden_boots": {
-    "criteria": {
-      "has_gold_ingot": "2025-05-05 22:34:50 +0800"
-    },
-    "done": true
-  },
-  "betternether:recipes/tools/cincinnasite_hoe_diamond": {
-    "criteria": {
-      "has_item.minecraft.diamond": "2025-05-05 22:33:35 +0800"
-    },
-    "done": true
-  },
-  "netherexp:recipes/misc/soul_skeleton_skull_candle": {
-    "criteria": {
-      "has_item": "2025-05-05 21:58:27 +0800"
     },
     "done": true
   },
@@ -5612,27 +5602,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
-    "criteria": {
-      "has_stone": "2025-05-05 22:32:51 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/andesite_pavers_from_andesite_stonecutting": {
-    "criteria": {
-      "has_andesite": "2025-05-05 21:37:25 +0800"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/diorite_bricks_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2025-05-05 21:26:55 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/diamond_pickaxe": {
-    "criteria": {
-      "has_diamond": "2025-05-05 22:33:35 +0800"
     },
     "done": true
   },
@@ -5642,33 +5614,9 @@
     },
     "done": true
   },
-  "stoneworks:recipes/building_blocks/netherrack_brick_stairs_from_netherrack_stonecutting": {
-    "criteria": {
-      "has_netherrack": "2025-05-05 21:45:25 +0800"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/combat/golden_knife": {
-    "criteria": {
-      "has_gold_ingot": "2025-05-05 22:34:50 +0800"
-    },
-    "done": true
-  },
-  "betternether:recipes/decorations/cincinnasite_fire_bowl": {
-    "criteria": {
-      "has_netherrack": "2025-05-05 21:45:25 +0800"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/diorite_tile_stairs_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2025-05-05 21:26:55 +0800"
-    },
-    "done": true
-  },
-  "twigs:recipes/lamps/warped_shroomlamp": {
-    "criteria": {
-      "has_item": "2025-05-05 22:00:10 +0800"
     },
     "done": true
   },
@@ -5678,93 +5626,9 @@
     },
     "done": true
   },
-  "stoneworks:recipes/building_blocks/stone_tile_slab_from_stone_stonecutting": {
-    "criteria": {
-      "has_stone": "2025-05-05 22:32:51 +0800"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/sign_post_oak": {
-    "criteria": {
-      "has_oak_sign": "2025-05-05 22:12:09 +0800"
-    },
-    "done": true
-  },
-  "aether_redux:recipes/misc/smelt_raw_veridium": {
-    "criteria": {
-      "has_raw_veridium": "2025-05-05 22:03:53 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/light_gray_stained_glass": {
-    "criteria": {
-      "has_glass": "2025-05-05 22:22:21 +0800"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/decorations/canvas_rug": {
-    "criteria": {
-      "has_canvas": "2025-05-05 21:34:54 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/andesite_brick_wall_from_andesite_stonecutting": {
-    "criteria": {
-      "has_andesite": "2025-05-05 21:37:25 +0800"
-    },
-    "done": true
-  },
-  "advancednetherite:recipes/misc/netherite_diamond_ingot": {
-    "criteria": {
-      "has_TagKey[minecraft:item / forge:gems/diamond]": "2025-05-05 22:33:35 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/redstone_lamp": {
-    "criteria": {
-      "has_glowstone": "2025-05-05 21:56:33 +0800"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/diorite_brick_stairs_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2025-05-05 21:26:55 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/gold_block": {
-    "criteria": {
-      "has_gold_ingot": "2025-05-05 22:34:50 +0800"
-    },
-    "done": true
-  },
-  "bygonenether:root": {
-    "criteria": {
-      "entered_nether": "2025-05-05 21:42:59 +0800"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/building_blocks/tatami_block_from_full": {
-    "criteria": {
-      "has_canvas": "2025-05-05 21:34:54 +0800"
-    },
-    "done": true
-  },
-  "twigs:recipes/lamps/crimson_shroomlamp": {
-    "criteria": {
-      "has_item": "2025-05-05 22:00:10 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/red_dye_from_tulip": {
-    "criteria": {
-      "has_red_flower": "2025-05-05 22:37:51 +0800"
-    },
-    "done": true
-  },
-  "betternether:recipes/tools/cincinnasite_pickaxe_diamond": {
-    "criteria": {
-      "has_item.minecraft.diamond": "2025-05-05 22:33:35 +0800"
     },
     "done": true
   },
@@ -5774,93 +5638,399 @@
     },
     "done": true
   },
-  "handcrafted:recipes/misc/skeleton_trophy": {
-    "criteria": {
-      "has_skeleton_trophy": "2025-05-05 22:32:51 +0800"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/hourglass": {
-    "criteria": {
-      "has_glass": "2025-05-05 22:22:21 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stone_stairs": {
-    "criteria": {
-      "has_stone": "2025-05-05 22:32:51 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/green_stained_glass": {
-    "criteria": {
-      "has_glass": "2025-05-05 22:22:21 +0800"
-    },
-    "done": true
-  },
-  "minecraft:story/iron_tools": {
-    "criteria": {
-      "iron_pickaxe": "2025-05-05 22:05:46 +0800"
-    },
-    "done": true
-  },
-  "betternether:recipes/misc/farmland": {
-    "criteria": {
-      "has_netherrack": "2025-05-05 21:45:25 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/diorite_slab": {
     "criteria": {
       "has_diorite": "2025-05-05 21:26:55 +0800"
     },
     "done": true
   },
-  "betternether:recipes/transportation/nether_mushroom_chest_boat": {
+  "minecraft:recipes/decorations/diorite_wall": {
     "criteria": {
-      "has_tag_c_chest": "2025-05-05 22:36:18 +0800"
+      "has_diorite": "2025-05-05 21:26:55 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/diorite_shingle_stairs_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-05-05 21:26:55 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/diorite_wall_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-05-05 21:26:55 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/diorite_pillar_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-05-05 21:26:55 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-05-05 21:26:55 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/diorite_pavers_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-05-05 21:26:55 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/diorite_plate_wall_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-05-05 21:26:55 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_cobbled_diorite_stairs_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-05-05 21:26:55 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/diorite_paver_stairs_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-05-05 21:26:55 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/diorite_tile_wall_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-05-05 21:26:55 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/diorite_plate_stairs_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-05-05 21:26:55 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite": {
+    "criteria": {
+      "has_stone": "2025-05-05 21:26:55 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_cobbled_diorite_slab_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-05-05 21:26:55 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/diorite_corner_trim": {
+    "criteria": {
+      "has_diorite_corner_trim": "2025-05-05 21:26:55 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/diorite_paver_slab_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-05-05 21:26:55 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cobbled_diorite_stairs_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-05-05 21:26:55 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/diorite_shingles_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-05-05 21:26:55 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cracked_diorite_bricks_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-05-05 21:26:55 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_slab_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-05-05 21:26:55 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cobbled_diorite_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-05-05 21:26:55 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/diorite_tiles_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-05-05 21:26:55 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/diorite_tile_slab_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-05-05 21:26:55 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_cobbled_diorite_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-05-05 21:26:55 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_stairs": {
+    "criteria": {
+      "has_diorite": "2025-05-05 21:26:55 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/diorite_brick_wall_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-05-05 21:26:55 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/diorite_plates_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-05-05 21:26:55 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_cobbled_diorite_wall_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-05-05 21:26:55 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/diorite_plate_slab_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-05-05 21:26:55 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_diorite_bricks_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-05-05 21:26:55 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_diorite_brick_wall_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-05-05 21:26:55 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_stairs_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-05-05 21:26:55 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/chiseled_diorite_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-05-05 21:26:55 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cracked_diorite_tiles_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-05-05 21:26:55 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_diorite_brick_stairs_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-05-05 21:26:55 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_diorite_brick_slab_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-05-05 21:26:55 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_slab_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-05-05 21:26:55 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/diorite_brick_slab_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-05-05 21:26:55 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/diorite_paver_wall_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2025-05-05 21:26:55 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/diorite_pillar_trim": {
+    "criteria": {
+      "has_diorite_pillar_trim": "2025-05-05 21:26:55 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/misc/straw": {
+    "criteria": {
+      "has_straw_bale": "2025-05-05 21:34:36 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/packed_mud_from_straw": {
+    "criteria": {
+      "has_straw": "2025-05-05 21:34:46 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/tools/lead_from_straw": {
+    "criteria": {
+      "has_straw": "2025-05-05 21:34:46 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/misc/canvas": {
+    "criteria": {
+      "has_straw": "2025-05-05 21:34:46 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/rope": {
+    "criteria": {
+      "has_straw": "2025-05-05 21:34:46 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/organic_compost_from_tree_bark": {
+    "criteria": {
+      "has_straw": "2025-05-05 21:34:46 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/straw_bale": {
+    "criteria": {
+      "has_straw": "2025-05-05 21:34:46 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:main/harvest_straw": {
+    "criteria": {
+      "harvest_straw": "2025-05-05 21:34:46 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/basket": {
+    "criteria": {
+      "has_canvas": "2025-05-05 21:34:54 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/canvas_rug": {
+    "criteria": {
+      "has_canvas": "2025-05-05 21:34:54 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/tatami_block_from_full": {
+    "criteria": {
+      "has_canvas": "2025-05-05 21:34:54 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/full_tatami_mat_from_halves": {
+    "criteria": {
+      "has_canvas": "2025-05-05 21:34:54 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/hanging_canvas_sign": {
+    "criteria": {
+      "has_canvas": "2025-05-05 21:34:54 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/half_tatami_mat": {
+    "criteria": {
+      "has_canvas": "2025-05-05 21:34:54 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/scaffolding_from_canvas": {
+    "criteria": {
+      "has_canvas": "2025-05-05 21:34:54 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/misc/book_from_canvas": {
+    "criteria": {
+      "has_canvas": "2025-05-05 21:34:54 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/full_tatami_mat": {
+    "criteria": {
+      "has_canvas": "2025-05-05 21:34:54 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/canvas_sign": {
+    "criteria": {
+      "has_canvas": "2025-05-05 21:34:54 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/painting_from_canvas": {
+    "criteria": {
+      "has_canvas": "2025-05-05 21:34:54 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/tatami": {
+    "criteria": {
+      "has_canvas": "2025-05-05 21:34:54 +0800"
+    },
+    "done": true
+  },
+  "mynethersdelight:recipes/misc/scaffolding_alt": {
+    "criteria": {
+      "has_the_recipe": "2025-05-05 21:35:05 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_cobbled_andesite_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2025-05-05 21:37:25 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/andesite_tiles_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2025-05-05 21:37:25 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/andesite_pavers_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2025-05-05 21:37:25 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/andesite_brick_wall_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2025-05-05 21:37:25 +0800"
     },
     "done": true
   },
   "stoneworks:recipes/building_blocks/mossy_cobbled_andesite_slab_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2025-05-05 21:37:25 +0800"
-    },
-    "done": true
-  },
-  "shieldexp:recipes/diamond_shield": {
-    "criteria": {
-      "has_diamond": "2025-05-05 22:33:35 +0800"
-    },
-    "done": true
-  },
-  "aether:recipes/building_blocks/blue_ice_freezing": {
-    "criteria": {
-      "has_water_bucket": "2025-05-05 21:48:34 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/golden_helmet": {
-    "criteria": {
-      "has_gold_ingot": "2025-05-05 22:34:50 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/polished_netherrack_wall_from_netherrack_stonecutting": {
-    "criteria": {
-      "has_netherrack": "2025-05-05 21:45:25 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/stone_paver_wall_from_stone_stonecutting": {
-    "criteria": {
-      "has_stone": "2025-05-05 22:32:51 +0800"
-    },
-    "done": true
-  },
-  "delightful:recipes/knives/nether_quartz_knife": {
-    "criteria": {
-      "has_gems/quartz": "2025-05-05 21:58:06 +0800"
     },
     "done": true
   },
@@ -5882,231 +6052,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/diorite_wall": {
-    "criteria": {
-      "has_diorite": "2025-05-05 21:26:55 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/stonecutter": {
-    "criteria": {
-      "has_stone": "2025-05-05 22:32:51 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/stone_pillar_from_stone_stonecutting": {
-    "criteria": {
-      "has_stone": "2025-05-05 22:32:51 +0800"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/blackboard": {
-    "criteria": {
-      "supplementaries:blackboard_white": "2025-05-05 21:58:06 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/white_stained_glass": {
-    "criteria": {
-      "has_glass": "2025-05-05 22:22:21 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/daylight_detector": {
-    "criteria": {
-      "has_quartz": "2025-05-05 21:58:06 +0800"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/iron_leggings_repairing": {
-    "criteria": {
-      "has_iron_leggings": "2025-05-05 21:18:04 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/chest_minecart": {
-    "criteria": {
-      "has_minecart": "2025-05-05 21:20:06 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_stonecutting": {
-    "criteria": {
-      "has_stone": "2025-05-05 22:32:51 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/glass_bottle": {
-    "criteria": {
-      "has_glass": "2025-05-05 22:22:21 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/polished_netherrack_stairs_from_netherrack_stonecutting": {
-    "criteria": {
-      "has_netherrack": "2025-05-05 21:45:25 +0800"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/dispenser_minecart": {
-    "criteria": {
-      "has_minecart": "2025-05-05 21:20:06 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/diorite_shingle_stairs_from_diorite_stonecutting": {
-    "criteria": {
-      "has_diorite": "2025-05-05 21:26:55 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stone_slab_from_stone_stonecutting": {
-    "criteria": {
-      "has_stone": "2025-05-05 22:32:51 +0800"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/kitchen_hood_pipe": {
-    "criteria": {
-      "has_kitchen_hood_pipe": "2025-05-05 21:50:17 +0800"
-    },
-    "done": true
-  },
-  "friendsandfoes:adventure/complete_hide_and_seek_game": {
-    "criteria": {
-      "friendsandfoes:complete_hide_and_seek_game": "2025-05-05 22:15:34 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/diorite_wall_from_diorite_stonecutting": {
-    "criteria": {
-      "has_diorite": "2025-05-05 21:26:55 +0800"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/misc/straw": {
-    "criteria": {
-      "has_straw_bale": "2025-05-05 21:34:36 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/diorite_pillar_from_diorite_stonecutting": {
-    "criteria": {
-      "has_diorite": "2025-05-05 21:26:55 +0800"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/building_blocks/packed_mud_from_straw": {
-    "criteria": {
-      "has_straw": "2025-05-05 21:34:46 +0800"
-    },
-    "done": true
-  },
-  "aether:enter_aether": {
-    "criteria": {
-      "enter_aether": "2025-05-05 22:03:08 +0800"
-    },
-    "done": true
-  },
-  "deep_aether:explore_aether": {
-    "criteria": {
-      "aether:skyroot_forest": "2025-05-05 22:03:09 +0800"
-    },
-    "done": false
-  },
-  "supplementaries:recipes/sugar_cube": {
-    "criteria": {
-      "has_sugar": "2025-05-05 22:20:12 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/purple_stained_glass": {
-    "criteria": {
-      "has_glass": "2025-05-05 22:22:21 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/stone_plate_slab_from_stone_stonecutting": {
-    "criteria": {
-      "has_stone": "2025-05-05 22:32:51 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/stone_plate_stairs_from_stone_stonecutting": {
-    "criteria": {
-      "has_stone": "2025-05-05 22:32:51 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_diorite_from_diorite_stonecutting": {
-    "criteria": {
-      "has_diorite": "2025-05-05 21:26:55 +0800"
-    },
-    "done": true
-  },
-  "barteringstation:recipes/decorations/bartering_station": {
-    "criteria": {
-      "has_gold_ingot": "2025-05-05 22:34:50 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/stone_plate_wall_from_stone_stonecutting": {
-    "criteria": {
-      "has_stone": "2025-05-05 22:32:51 +0800"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/gold_door": {
-    "criteria": {
-      "has_gold_ingot": "2025-05-05 22:34:50 +0800"
-    },
-    "done": true
-  },
-  "blue_skies:recipes/building_blocks/glowing_blinding_stone": {
-    "criteria": {
-      "has_item": "2025-05-05 21:43:14 +0800"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/golden_pendant": {
-    "criteria": {
-      "has_gold_ingot": "2025-05-05 22:34:50 +0800"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/andesite_shingle_wall_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2025-05-05 21:37:25 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/mossy_cobbled_netherrack_from_netherrack_stonecutting": {
-    "criteria": {
-      "has_netherrack": "2025-05-05 21:45:25 +0800"
-    },
-    "done": true
-  },
-  "betternether:recipes/transportation/willow_chest_boat": {
-    "criteria": {
-      "has_tag_c_chest": "2025-05-05 22:36:18 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/diorite_pavers_from_diorite_stonecutting": {
-    "criteria": {
-      "has_diorite": "2025-05-05 21:26:55 +0800"
-    },
-    "done": true
-  },
-  "galosphere:recipes/decorations/allurite_lamp": {
-    "criteria": {
-      "has_glowstone": "2025-05-05 21:56:33 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/diorite_plate_wall_from_diorite_stonecutting": {
-    "criteria": {
-      "has_diorite": "2025-05-05 21:26:55 +0800"
     },
     "done": true
   },
@@ -6116,357 +6064,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/golden_axe": {
-    "criteria": {
-      "has_gold_ingot": "2025-05-05 22:34:50 +0800"
-    },
-    "done": true
-  },
-  "betternether:recipes/decorations/brick_pot": {
-    "criteria": {
-      "has_soul_sand": "2025-05-05 21:58:27 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/mossy_cobbled_diorite_stairs_from_diorite_stonecutting": {
-    "criteria": {
-      "has_diorite": "2025-05-05 21:26:55 +0800"
-    },
-    "done": true
-  },
-  "betternether:recipes/transportation/crimson_chest_boat": {
-    "criteria": {
-      "has_tag_c_chest": "2025-05-05 22:36:18 +0800"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/tools/lead_from_straw": {
-    "criteria": {
-      "has_straw": "2025-05-05 21:34:46 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stone_slab": {
-    "criteria": {
-      "has_stone": "2025-05-05 22:32:51 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/black_stained_glass": {
-    "criteria": {
-      "has_glass": "2025-05-05 22:22:21 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/stone_tile_stairs_from_stone_stonecutting": {
-    "criteria": {
-      "has_stone": "2025-05-05 22:32:51 +0800"
-    },
-    "done": true
-  },
-  "decorative_blocks:recipes/decorations/brazier": {
-    "criteria": {
-      "has_bar": "2025-05-05 21:50:17 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/gray_stained_glass": {
-    "criteria": {
-      "has_glass": "2025-05-05 22:22:21 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/mossy_netherrack_bricks_from_netherrack_stonecutting": {
-    "criteria": {
-      "has_netherrack": "2025-05-05 21:45:25 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/stone_button": {
-    "criteria": {
-      "has_stone": "2025-05-05 22:32:51 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/stone_paver_stairs_from_stone_stonecutting": {
-    "criteria": {
-      "has_stone": "2025-05-05 22:32:51 +0800"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/end_stone_lamp": {
-    "criteria": {
-      "has_shroomlight": "2025-05-05 22:00:10 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/diorite_paver_stairs_from_diorite_stonecutting": {
-    "criteria": {
-      "has_diorite": "2025-05-05 21:26:55 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/soul_torch": {
-    "criteria": {
-      "has_soul_sand": "2025-05-05 21:58:27 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/diorite": {
-    "criteria": {
-      "has_quartz": "2025-05-05 21:58:06 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/granite": {
-    "criteria": {
-      "has_quartz": "2025-05-05 21:58:06 +0800"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/mossy_andesite_brick_stairs_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2025-05-05 21:37:25 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
-    "criteria": {
-      "has_gold_ingot": "2025-05-05 22:34:50 +0800"
-    },
-    "done": true
-  },
-  "betternether:recipes/decorations/cincinnasite_fire_bowl_soul": {
-    "criteria": {
-      "has_soul_sand": "2025-05-05 21:58:27 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/diorite_tile_wall_from_diorite_stonecutting": {
-    "criteria": {
-      "has_diorite": "2025-05-05 21:26:55 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/diorite_plate_stairs_from_diorite_stonecutting": {
-    "criteria": {
-      "has_diorite": "2025-05-05 21:26:55 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/dried_kelp_from_smoking": {
-    "criteria": {
-      "has_kelp": "2025-05-05 21:40:49 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/polished_netherrack_slab_from_netherrack_stonecutting": {
-    "criteria": {
-      "has_netherrack": "2025-05-05 21:45:25 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gold_ingot_from_blasting_gold_ore": {
-    "criteria": {
-      "has_gold_ore": "2025-05-05 22:15:46 +0800"
-    },
-    "done": true
-  },
-  "mynethersdelight:recipes/misc/scaffolding_alt": {
-    "criteria": {
-      "has_the_recipe": "2025-05-05 21:35:05 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/cobbled_netherrack_wall_from_netherrack_stonecutting": {
-    "criteria": {
-      "has_netherrack": "2025-05-05 21:45:25 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/polished_andesite_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2025-05-05 21:37:25 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/diamond_helmet": {
-    "criteria": {
-      "has_diamond": "2025-05-05 22:33:35 +0800"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/decorations/full_tatami_mat_from_halves": {
-    "criteria": {
-      "has_canvas": "2025-05-05 21:34:54 +0800"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/decorations/hanging_canvas_sign": {
-    "criteria": {
-      "has_canvas": "2025-05-05 21:34:54 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/andesite": {
-    "criteria": {
-      "has_stone": "2025-05-05 21:26:55 +0800"
-    },
-    "done": true
-  },
-  "hearth_and_home:recipes/barred_glass": {
-    "criteria": {
-      "has_item": "2025-05-05 22:22:21 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/mossy_cobbled_diorite_slab_from_diorite_stonecutting": {
-    "criteria": {
-      "has_diorite": "2025-05-05 21:26:55 +0800"
-    },
-    "done": true
-  },
-  "betternether:recipes/tools/cincinnasite_axe_diamond": {
-    "criteria": {
-      "has_item.minecraft.diamond": "2025-05-05 22:33:35 +0800"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/diorite_corner_trim": {
-    "criteria": {
-      "has_diorite_corner_trim": "2025-05-05 21:26:55 +0800"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/pillager_trophy": {
-    "criteria": {
-      "has_pillager_trophy": "2025-05-05 22:32:51 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/spectral_arrow": {
-    "criteria": {
-      "has_glowstone_dust": "2025-05-05 21:43:14 +0800"
-    },
-    "done": true
-  },
-  "minecraft:story/mine_diamond": {
-    "criteria": {
-      "diamond": "2025-05-05 22:33:35 +0800"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/stone_lamp": {
-    "criteria": {
-      "has_shroomlight": "2025-05-05 22:00:10 +0800"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/gold_chandelier": {
-    "criteria": {
-      "has_gold_ingot": "2025-05-05 22:34:50 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/mossy_cobbled_netherrack_slab_from_netherrack_stonecutting": {
-    "criteria": {
-      "has_netherrack": "2025-05-05 21:45:25 +0800"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/decorations/half_tatami_mat": {
-    "criteria": {
-      "has_canvas": "2025-05-05 21:34:54 +0800"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/combat/diamond_knife": {
-    "criteria": {
-      "has_diamond": "2025-05-05 22:33:35 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/stone_plates_from_stone_stonecutting": {
-    "criteria": {
-      "has_stone": "2025-05-05 22:32:51 +0800"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/decorations/iron_ladder": {
-    "criteria": {
-      "has_iron_bars": "2025-05-05 21:50:17 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/blue_dye": {
-    "criteria": {
-      "has_lapis_lazuli": "2025-05-05 21:23:34 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/stone_shingle_slab_from_stone_stonecutting": {
-    "criteria": {
-      "has_stone": "2025-05-05 22:32:51 +0800"
-    },
-    "done": true
-  },
-  "betternether:recipes/decorations/bricks_fire_bowl_soul": {
-    "criteria": {
-      "has_soul_sand": "2025-05-05 21:58:27 +0800"
-    },
-    "done": true
-  },
-  "netherexp:recipes/bone_blocks/wither/soul_burning_skull_block": {
-    "criteria": {
-      "has_item": "2025-05-05 21:58:27 +0800"
-    },
-    "done": true
-  },
-  "galosphere:recipes/decorations/lumiere_lamp": {
-    "criteria": {
-      "has_glowstone": "2025-05-05 21:56:33 +0800"
-    },
-    "done": true
-  },
-  "betternether:recipes/transportation/nether_reed_chest_boat": {
-    "criteria": {
-      "has_tag_c_chest": "2025-05-05 22:36:18 +0800"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/copy_netherite_upgrade": {
-    "criteria": {
-      "has_netherrack": "2025-05-05 21:45:25 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/mossy_netherrack_brick_wall_from_netherrack_stonecutting": {
-    "criteria": {
-      "has_netherrack": "2025-05-05 21:45:25 +0800"
-    },
-    "done": true
-  },
-  "aether:recipes/decorations/skyroot_jukebox": {
-    "criteria": {
-      "has_diamond": "2025-05-05 22:33:35 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/diorite_paver_slab_from_diorite_stonecutting": {
-    "criteria": {
-      "has_diorite": "2025-05-05 21:26:55 +0800"
-    },
-    "done": true
-  },
-  "betternether:recipes/transportation/nether_sakura_chest_boat": {
-    "criteria": {
-      "has_tag_c_chest": "2025-05-05 22:36:18 +0800"
-    },
-    "done": true
-  },
-  "netherexp:recipes/misc/soul_magma_block": {
-    "criteria": {
-      "has_item2": "2025-05-05 21:58:27 +0800"
     },
     "done": true
   },
@@ -6488,171 +6094,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/tnt_minecart": {
-    "criteria": {
-      "has_minecart": "2025-05-05 21:20:06 +0800"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/shadow_berry_jelly_potion": {
-    "criteria": {
-      "has_sugar": "2025-05-05 22:20:12 +0800"
-    },
-    "done": true
-  },
-  "aether:recipes/misc/aether_iron_nugget_from_blasting": {
-    "criteria": {
-      "has_chainmail_gloves": "2025-05-05 21:57:16 +0800"
-    },
-    "done": true
-  },
-  "adorabuild_structures:nether_structures": {
-    "criteria": {
-      "example": "2025-05-05 21:42:59 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/cobbled_netherrack_slab_from_netherrack_stonecutting": {
-    "criteria": {
-      "has_netherrack": "2025-05-05 21:45:25 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/glass_pane": {
-    "criteria": {
-      "has_glass": "2025-05-05 22:22:21 +0800"
-    },
-    "done": true
-  },
-  "betternether:recipes/transportation/anchor_tree_chest_boat": {
-    "criteria": {
-      "has_tag_c_chest": "2025-05-05 22:36:18 +0800"
-    },
-    "done": true
-  },
-  "aether_redux:recipes/combat/enchanted_ring": {
-    "criteria": {
-      "has_ambrosium_shard": "2025-05-05 22:03:46 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/mossy_netherrack_brick_slab_from_netherrack_stonecutting": {
-    "criteria": {
-      "has_netherrack": "2025-05-05 21:45:25 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/andesite_stairs_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2025-05-05 21:37:25 +0800"
-    },
-    "done": true
-  },
-  "aether_redux:recipes/misc/sentrite_lantern": {
-    "criteria": {
-      "has_ambrosium_shard": "2025-05-05 22:03:46 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/cobbled_diorite_stairs_from_diorite_stonecutting": {
-    "criteria": {
-      "has_diorite": "2025-05-05 21:26:55 +0800"
-    },
-    "done": true
-  },
-  "minecraft:nether/root": {
-    "criteria": {
-      "entered_nether": "2025-05-05 21:42:59 +0800"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/deepslate_lamp": {
-    "criteria": {
-      "has_shroomlight": "2025-05-05 22:00:10 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/cracked_stone_tiles_from_stone_stonecutting": {
-    "criteria": {
-      "has_stone": "2025-05-05 22:32:51 +0800"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/golden_gloves": {
-    "criteria": {
-      "has_gold": "2025-05-05 22:34:50 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/diorite_shingles_from_diorite_stonecutting": {
-    "criteria": {
-      "has_diorite": "2025-05-05 21:26:55 +0800"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/decorations/scaffolding_from_canvas": {
-    "criteria": {
-      "has_canvas": "2025-05-05 21:34:54 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/stone_tiles_from_stone_stonecutting": {
-    "criteria": {
-      "has_stone": "2025-05-05 22:32:51 +0800"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/stone_pillar_trim": {
-    "criteria": {
-      "has_stone_pillar_trim": "2025-05-05 22:32:51 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/yellow_stained_glass": {
-    "criteria": {
-      "has_glass": "2025-05-05 22:22:21 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/cracked_diorite_bricks_from_diorite_stonecutting": {
-    "criteria": {
-      "has_diorite": "2025-05-05 21:26:55 +0800"
-    },
-    "done": true
-  },
-  "betternether:recipes/tools/cincinnasite_shovel_diamond": {
-    "criteria": {
-      "has_item.minecraft.diamond": "2025-05-05 22:33:35 +0800"
-    },
-    "done": true
-  },
-  "twigs:recipes/bloodstone/bloodstone": {
-    "criteria": {
-      "has_item": "2025-05-05 21:58:06 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/glowstone": {
-    "criteria": {
-      "has_glowstone_dust": "2025-05-05 21:43:14 +0800"
-    },
-    "done": true
-  },
-  "blue_skies:recipes/building_blocks/glowing_nature_stone": {
-    "criteria": {
-      "has_item": "2025-05-05 21:43:14 +0800"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/jar": {
-    "criteria": {
-      "has_glass": "2025-05-05 22:22:21 +0800"
-    },
-    "done": true
-  },
-  "decorative_blocks:recipes/decorations/soul_brazier": {
-    "criteria": {
-      "has_bar": "2025-05-05 21:50:17 +0800"
     },
     "done": true
   },
@@ -6662,117 +6106,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/diorite_slab_from_diorite_stonecutting": {
-    "criteria": {
-      "has_diorite": "2025-05-05 21:26:55 +0800"
-    },
-    "done": true
-  },
-  "betternether:recipes/building_blocks/soul_sand_soul_sandstone": {
-    "criteria": {
-      "has_soul_sand": "2025-05-05 21:58:27 +0800"
-    },
-    "done": true
-  },
-  "betternether:recipes/transportation/warped_chest_boat": {
-    "criteria": {
-      "has_tag_c_chest": "2025-05-05 22:36:18 +0800"
-    },
-    "done": true
-  },
-  "aether:recipes/decorations/skyroot_grindstone": {
-    "criteria": {
-      "has_stone_slab": "2025-05-05 22:32:48 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/golden_leggings": {
-    "criteria": {
-      "has_gold_ingot": "2025-05-05 22:34:50 +0800"
-    },
-    "done": true
-  },
-  "betternether:recipes/transportation/mushroom_fir_chest_boat": {
-    "criteria": {
-      "has_tag_c_chest": "2025-05-05 22:36:18 +0800"
-    },
-    "done": true
-  },
-  "aether:recipes/building_blocks/packed_ice_freezing": {
-    "criteria": {
-      "has_water_bucket": "2025-05-05 21:48:34 +0800"
-    },
-    "done": true
-  },
-  "bclib:recipes/decorations/tag_shulker_box": {
-    "criteria": {
-      "has_tag_c_chest": "2025-05-05 22:36:18 +0800"
-    },
-    "done": true
-  },
-  "yungscavebiomes:recipes/building_blocks/brittle_sandstone": {
-    "criteria": {
-      "has_sand": "2025-05-05 22:21:21 +0800"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/kitchen_hood": {
-    "criteria": {
-      "has_kitchen_hood": "2025-05-05 21:50:17 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/cobbled_diorite_from_diorite_stonecutting": {
-    "criteria": {
-      "has_diorite": "2025-05-05 21:26:55 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gold_nugget": {
-    "criteria": {
-      "has_gold_ingot": "2025-05-05 22:34:50 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/golden_shovel": {
-    "criteria": {
-      "has_gold_ingot": "2025-05-05 22:34:50 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/orange_stained_glass": {
-    "criteria": {
-      "has_glass": "2025-05-05 22:22:21 +0800"
-    },
-    "done": true
-  },
-  "netherexp:recipes/misc/soul_torch_from_fossil_fuel": {
-    "criteria": {
-      "has_item": "2025-05-05 21:58:27 +0800"
-    },
-    "done": true
-  },
-  "aether:recipes/misc/aether_iron_nugget_from_smelting": {
-    "criteria": {
-      "has_chainmail_gloves": "2025-05-05 21:57:16 +0800"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/cobbled_andesite_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2025-05-05 21:37:25 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/golden_chestplate": {
-    "criteria": {
-      "has_gold_ingot": "2025-05-05 22:34:50 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/diorite_tiles_from_diorite_stonecutting": {
-    "criteria": {
-      "has_diorite": "2025-05-05 21:26:55 +0800"
     },
     "done": true
   },
@@ -6782,117 +6118,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/diamond_hoe": {
-    "criteria": {
-      "has_diamond": "2025-05-05 22:33:35 +0800"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/misc/book_from_canvas": {
-    "criteria": {
-      "has_canvas": "2025-05-05 21:34:54 +0800"
-    },
-    "done": true
-  },
-  "galosphere:recipes/decorations/amethyst_lamp": {
-    "criteria": {
-      "has_glowstone": "2025-05-05 21:56:33 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/stone_shingle_wall_from_stone_stonecutting": {
-    "criteria": {
-      "has_stone": "2025-05-05 22:32:51 +0800"
-    },
-    "done": true
-  },
-  "aether:recipes/building_blocks/ambrosium_block": {
-    "criteria": {
-      "has_ambrosium_shard": "2025-05-05 22:03:46 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/cobbled_netherrack_from_netherrack_stonecutting": {
-    "criteria": {
-      "has_netherrack": "2025-05-05 21:45:25 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/comparator": {
-    "criteria": {
-      "has_quartz": "2025-05-05 21:58:06 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/red_stained_glass": {
-    "criteria": {
-      "has_glass": "2025-05-05 22:22:21 +0800"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/golden_ring": {
-    "criteria": {
-      "has_gold_ingot": "2025-05-05 22:34:50 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/hopper_minecart": {
-    "criteria": {
-      "has_minecart": "2025-05-05 21:20:06 +0800"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/vindicator_trophy": {
-    "criteria": {
-      "has_vindicator_trophy": "2025-05-05 22:32:51 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/netherrack_brick_slab_from_netherrack_stonecutting": {
-    "criteria": {
-      "has_netherrack": "2025-05-05 21:45:25 +0800"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/end_stone_smelter": {
-    "criteria": {
-      "has_tag_c_furnaces": "2025-05-05 21:17:53 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/golden_sword": {
-    "criteria": {
-      "has_gold_ingot": "2025-05-05 22:34:50 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/grindstone": {
-    "criteria": {
-      "has_stone_slab": "2025-05-05 22:32:48 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/diamond_block": {
-    "criteria": {
-      "has_diamond": "2025-05-05 22:33:35 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/polished_andesite_stairs_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2025-05-05 21:37:25 +0800"
-    },
-    "done": true
-  },
-  "aether_redux:recipes/misc/veridium_lantern": {
-    "criteria": {
-      "has_ambrosium_shard": "2025-05-05 22:03:46 +0800"
-    },
-    "done": true
-  },
-  "aether_redux:recipes/building_blocks/raw_veridium_block": {
-    "criteria": {
-      "has_raw_veridium": "2025-05-05 22:03:53 +0800"
     },
     "done": true
   },
@@ -6902,81 +6130,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/nether_brick": {
-    "criteria": {
-      "has_netherrack": "2025-05-05 21:45:25 +0800"
-    },
-    "done": true
-  },
-  "aether:recipes/tools/iron_pickaxe_repairing": {
-    "criteria": {
-      "has_iron_pickaxe": "2025-05-05 22:05:46 +0800"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/andesite_bricks_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2025-05-05 21:37:25 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/rail": {
-    "criteria": {
-      "has_minecart": "2025-05-05 21:20:06 +0800"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/decorations/full_tatami_mat": {
-    "criteria": {
-      "has_canvas": "2025-05-05 21:34:54 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/dried_kelp_from_smelting": {
-    "criteria": {
-      "has_kelp": "2025-05-05 21:40:49 +0800"
-    },
-    "done": true
-  },
-  "blue_skies:recipes/building_blocks/glowing_poison_stone": {
-    "criteria": {
-      "has_item": "2025-05-05 21:43:14 +0800"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/shadow_berry_jelly": {
-    "criteria": {
-      "has_tag_c_water_bottles": "2025-05-05 21:48:34 +0800"
-    },
-    "done": true
-  },
-  "blue_skies:recipes/building_blocks/food_prep_table": {
-    "criteria": {
-      "has_item": "2025-05-05 21:17:53 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
-    "criteria": {
-      "has_kelp": "2025-05-05 21:40:49 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/netherrack_brick_wall_from_netherrack_stonecutting": {
-    "criteria": {
-      "has_netherrack": "2025-05-05 21:45:25 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/mossy_cobbled_netherrack_wall_from_netherrack_stonecutting": {
-    "criteria": {
-      "has_netherrack": "2025-05-05 21:45:25 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/blue_stained_glass": {
-    "criteria": {
-      "has_glass": "2025-05-05 22:22:21 +0800"
     },
     "done": true
   },
@@ -6986,81 +6142,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/iron_ingot_from_blasting_iron_ore": {
-    "criteria": {
-      "has_iron_ore": "2025-05-05 21:17:47 +0800"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/mossy_andesite_brick_slab_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2025-05-05 21:37:25 +0800"
-    },
-    "done": true
-  },
-  "minecraft:story/enter_the_nether": {
-    "criteria": {
-      "entered_nether": "2025-05-05 21:42:59 +0800"
-    },
-    "done": true
-  },
-  "twigs:recipes/columns/stone_column": {
-    "criteria": {
-      "has_item": "2025-05-05 22:32:51 +0800"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/gold_trapdoor": {
-    "criteria": {
-      "has_gold_ingot": "2025-05-05 22:34:50 +0800"
-    },
-    "done": true
-  },
-  "netherexp:recipes/bone_blocks/soul_burning_skull_block": {
-    "criteria": {
-      "has_item": "2025-05-05 21:58:27 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/smoker": {
-    "criteria": {
-      "has_furnace": "2025-05-05 21:17:53 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/lime_stained_glass": {
-    "criteria": {
-      "has_glass": "2025-05-05 22:22:21 +0800"
-    },
-    "done": true
-  },
-  "aether:recipes/building_blocks/ice_from_bucket_freezing": {
-    "criteria": {
-      "has_water_bucket": "2025-05-05 21:48:34 +0800"
-    },
-    "done": true
-  },
-  "twilightdelight:recipes/frozen/obsidian": {
-    "criteria": {
-      "has_magma_block": "2025-05-05 21:45:18 +0800"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/chainmail_boots_repairing": {
-    "criteria": {
-      "has_chainmail_boots": "2025-05-05 21:18:04 +0800"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/misc/canvas": {
-    "criteria": {
-      "has_straw": "2025-05-05 21:34:46 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/diorite_tile_slab_from_diorite_stonecutting": {
-    "criteria": {
-      "has_diorite": "2025-05-05 21:26:55 +0800"
     },
     "done": true
   },
@@ -7070,39 +6154,9 @@
     },
     "done": true
   },
-  "twigs:recipes/columns/stone_column_stonecutting": {
-    "criteria": {
-      "has_item": "2025-05-05 22:32:51 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/andesite_slab_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2025-05-05 21:37:25 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
-    "criteria": {
-      "has_stone": "2025-05-05 22:32:51 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/diamond_boots": {
-    "criteria": {
-      "has_diamond": "2025-05-05 22:33:35 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
-    "criteria": {
-      "has_stone": "2025-05-05 22:32:51 +0800"
-    },
-    "done": true
-  },
-  "magnumtorch:recipes/decorations/diamond_magnum_torch": {
-    "criteria": {
-      "has_diamond": "2025-05-05 22:33:35 +0800"
     },
     "done": true
   },
@@ -7112,81 +6166,9 @@
     },
     "done": true
   },
-  "galosphere:recipes/decorations/gilded_beads": {
-    "criteria": {
-      "has_gold_ingot": "2025-05-05 22:34:50 +0800"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/decorations/canvas_sign": {
-    "criteria": {
-      "has_canvas": "2025-05-05 21:34:54 +0800"
-    },
-    "done": true
-  },
-  "delightful:recipes/food/marshmallow_stick": {
-    "criteria": {
-      "has_sugar": "2025-05-05 22:20:12 +0800"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/decorations/painting_from_canvas": {
-    "criteria": {
-      "has_canvas": "2025-05-05 21:34:54 +0800"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/blossom_berry_jelly": {
-    "criteria": {
-      "has_tag_c_water_bottles": "2025-05-05 21:48:34 +0800"
-    },
-    "done": true
-  },
-  "betternether:recipes/building_blocks/quartz_glass_smelting": {
-    "criteria": {
-      "has_item.minecraft.quartz": "2025-05-05 21:58:06 +0800"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/andesite_plate_stairs_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2025-05-05 21:37:25 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/soul_campfire": {
-    "criteria": {
-      "has_soul_sand": "2025-05-05 21:58:27 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/mossy_cobbled_diorite_from_diorite_stonecutting": {
-    "criteria": {
-      "has_diorite": "2025-05-05 21:26:55 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/sandstone": {
-    "criteria": {
-      "has_sand": "2025-05-05 22:21:21 +0800"
-    },
-    "done": true
-  },
-  "betternether:recipes/combat/cincinnasite_sword_diamond": {
-    "criteria": {
-      "has_item.minecraft.diamond": "2025-05-05 22:33:35 +0800"
-    },
-    "done": true
-  },
-  "betternether:recipes/decorations/cincinnasite_lantern": {
-    "criteria": {
-      "has_glowstone": "2025-05-05 21:56:33 +0800"
-    },
-    "done": true
-  },
-  "decorative_blocks:recipes/building_blocks/stone_pillar": {
-    "criteria": {
-      "has_stone": "2025-05-05 22:32:51 +0800"
     },
     "done": true
   },
@@ -7202,93 +6184,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/golden_hoe": {
-    "criteria": {
-      "has_gold_ingot": "2025-05-05 22:34:50 +0800"
-    },
-    "done": true
-  },
-  "betternether:recipes/misc/copy_flaming_ruby_upgrade": {
-    "criteria": {
-      "has_diamond": "2025-05-05 22:33:35 +0800"
-    },
-    "done": true
-  },
-  "betternether:recipes/decorations/cincinnasite_pot": {
-    "criteria": {
-      "has_soul_sand": "2025-05-05 21:58:27 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/diorite_stairs": {
-    "criteria": {
-      "has_diorite": "2025-05-05 21:26:55 +0800"
-    },
-    "done": true
-  },
-  "betternether:recipes/transportation/rubeus_chest_boat": {
-    "criteria": {
-      "has_tag_c_chest": "2025-05-05 22:36:18 +0800"
-    },
-    "done": true
-  },
-  "betternether:recipes/misc/copy_cincinnasite_diamond_upgrade": {
-    "criteria": {
-      "has_diamond": "2025-05-05 22:33:35 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stone_bricks": {
-    "criteria": {
-      "has_stone": "2025-05-05 22:32:51 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/stone_pavers_from_stone_stonecutting": {
-    "criteria": {
-      "has_stone": "2025-05-05 22:32:51 +0800"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/andesite_shingle_slab_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2025-05-05 21:37:25 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/diorite_brick_wall_from_diorite_stonecutting": {
-    "criteria": {
-      "has_diorite": "2025-05-05 21:26:55 +0800"
-    },
-    "done": true
-  },
-  "betternether:recipes/transportation/stalagnate_chest_boat": {
-    "criteria": {
-      "has_tag_c_chest": "2025-05-05 22:36:18 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/golden_pickaxe": {
-    "criteria": {
-      "has_gold_ingot": "2025-05-05 22:34:50 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/lapis_block": {
-    "criteria": {
-      "has_lapis_lazuli": "2025-05-05 21:23:34 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/diorite_plates_from_diorite_stonecutting": {
-    "criteria": {
-      "has_diorite": "2025-05-05 21:26:55 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/diamond_chestplate": {
-    "criteria": {
-      "has_diamond": "2025-05-05 22:33:35 +0800"
     },
     "done": true
   },
@@ -7298,51 +6196,9 @@
     },
     "done": true
   },
-  "supplementaries:recipes/soap": {
-    "criteria": {
-      "has_water_bucket": "2025-05-05 21:48:34 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gold_ingot_from_smelting_gold_ore": {
-    "criteria": {
-      "has_gold_ore": "2025-05-05 22:15:46 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stone_bricks_from_stone_stonecutting": {
-    "criteria": {
-      "has_stone": "2025-05-05 22:32:51 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/mossy_cobbled_diorite_wall_from_diorite_stonecutting": {
-    "criteria": {
-      "has_diorite": "2025-05-05 21:26:55 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/pink_stained_glass": {
-    "criteria": {
-      "has_glass": "2025-05-05 22:22:21 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/diorite_plate_slab_from_diorite_stonecutting": {
-    "criteria": {
-      "has_diorite": "2025-05-05 21:26:55 +0800"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/cracked_andesite_tiles_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2025-05-05 21:37:25 +0800"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/blackstone_lamp": {
-    "criteria": {
-      "has_shroomlight": "2025-05-05 22:00:10 +0800"
     },
     "done": true
   },
@@ -7352,105 +6208,9 @@
     },
     "done": true
   },
-  "stoneworks:recipes/building_blocks/mossy_diorite_bricks_from_diorite_stonecutting": {
-    "criteria": {
-      "has_diorite": "2025-05-05 21:26:55 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/stone_pressure_plate": {
-    "criteria": {
-      "has_stone": "2025-05-05 22:32:51 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/mossy_diorite_brick_wall_from_diorite_stonecutting": {
-    "criteria": {
-      "has_diorite": "2025-05-05 21:26:55 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/diamond_shovel": {
-    "criteria": {
-      "has_diamond": "2025-05-05 22:33:35 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_diorite_stairs_from_diorite_stonecutting": {
-    "criteria": {
-      "has_diorite": "2025-05-05 21:26:55 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/quartz_block": {
-    "criteria": {
-      "has_quartz": "2025-05-05 21:58:06 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/chiseled_diorite_from_diorite_stonecutting": {
-    "criteria": {
-      "has_diorite": "2025-05-05 21:26:55 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/cracked_diorite_tiles_from_diorite_stonecutting": {
-    "criteria": {
-      "has_diorite": "2025-05-05 21:26:55 +0800"
-    },
-    "done": true
-  },
-  "aether:the_aether": {
-    "criteria": {
-      "the_aether": "2025-05-05 22:03:08 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/polished_netherrack_from_netherrack_stonecutting": {
-    "criteria": {
-      "has_netherrack": "2025-05-05 21:45:25 +0800"
-    },
-    "done": true
-  },
-  "twigs:recipes/silt/silt_from_sand": {
-    "criteria": {
-      "has_item": "2025-05-05 22:21:21 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/black_dye": {
-    "criteria": {
-      "has_ink_sac": "2025-05-05 21:41:25 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/iron_ingot_from_smelting_iron_ore": {
-    "criteria": {
-      "has_iron_ore": "2025-05-05 21:17:47 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/stone_tile_wall_from_stone_stonecutting": {
-    "criteria": {
-      "has_stone": "2025-05-05 22:32:51 +0800"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/cobbled_andesite_slab_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2025-05-05 21:37:25 +0800"
-    },
-    "done": true
-  },
-  "betternether:enter_nether": {
-    "criteria": {
-      "entered_nether": "2025-05-05 21:42:59 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/stone_paver_slab_from_stone_stonecutting": {
-    "criteria": {
-      "has_stone": "2025-05-05 22:32:51 +0800"
     },
     "done": true
   },
@@ -7460,57 +6220,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cyan_stained_glass": {
-    "criteria": {
-      "has_glass": "2025-05-05 22:22:21 +0800"
-    },
-    "done": true
-  },
-  "advancednetherite:recipes/misc/netherite_gold_ingot": {
-    "criteria": {
-      "has_TagKey[minecraft:item / forge:ingots/gold]": "2025-05-05 22:34:50 +0800"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/chiseled_andesite_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2025-05-05 21:37:25 +0800"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/evoker_trophy": {
-    "criteria": {
-      "has_evoker_trophy": "2025-05-05 22:32:51 +0800"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/candy": {
-    "criteria": {
-      "has_sugar": "2025-05-05 22:20:12 +0800"
-    },
-    "done": true
-  },
-  "betternether:recipes/decorations/netherrack_furnace": {
-    "criteria": {
-      "has_netherrack": "2025-05-05 21:45:25 +0800"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/diamond_gloves": {
-    "criteria": {
-      "has_diamond": "2025-05-05 22:33:35 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/mossy_diorite_brick_stairs_from_diorite_stonecutting": {
-    "criteria": {
-      "has_diorite": "2025-05-05 21:26:55 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/cauldron": {
-    "criteria": {
-      "has_water_bucket": "2025-05-05 21:48:34 +0800"
     },
     "done": true
   },
@@ -7520,45 +6232,9 @@
     },
     "done": true
   },
-  "stoneworks:recipes/building_blocks/mossy_diorite_brick_slab_from_diorite_stonecutting": {
-    "criteria": {
-      "has_diorite": "2025-05-05 21:26:55 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/mossy_netherrack_brick_stairs_from_netherrack_stonecutting": {
-    "criteria": {
-      "has_netherrack": "2025-05-05 21:45:25 +0800"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/cave_pumpkin_pie": {
-    "criteria": {
-      "has_sugar": "2025-05-05 22:20:12 +0800"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/copy_aeternium_upgrade": {
-    "criteria": {
-      "has_diamond": "2025-05-05 22:33:35 +0800"
-    },
-    "done": true
-  },
   "handcrafted:recipes/misc/andesite_pillar_trim": {
     "criteria": {
       "has_andesite_pillar_trim": "2025-05-05 21:37:25 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/cobbled_netherrack_stairs_from_netherrack_stonecutting": {
-    "criteria": {
-      "has_netherrack": "2025-05-05 21:45:25 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_diorite_slab_from_diorite_stonecutting": {
-    "criteria": {
-      "has_diorite": "2025-05-05 21:26:55 +0800"
     },
     "done": true
   },
@@ -7568,63 +6244,9 @@
     },
     "done": true
   },
-  "stoneworks:recipes/building_blocks/diorite_brick_slab_from_diorite_stonecutting": {
-    "criteria": {
-      "has_diorite": "2025-05-05 21:26:55 +0800"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/decorations/rope": {
-    "criteria": {
-      "has_straw": "2025-05-05 21:34:46 +0800"
-    },
-    "done": true
-  },
-  "betternether:recipes/transportation/wart_chest_boat": {
-    "criteria": {
-      "has_tag_c_chest": "2025-05-05 22:36:18 +0800"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/building_blocks/organic_compost_from_tree_bark": {
-    "criteria": {
-      "has_straw": "2025-05-05 21:34:46 +0800"
-    },
-    "done": true
-  },
-  "betternether:recipes/decorations/bricks_fire_bowl": {
-    "criteria": {
-      "has_netherrack": "2025-05-05 21:45:25 +0800"
-    },
-    "done": true
-  },
   "stoneworks:recipes/building_blocks/andesite_tile_wall_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2025-05-05 21:37:25 +0800"
-    },
-    "done": true
-  },
-  "stoneworks:recipes/building_blocks/diorite_paver_wall_from_diorite_stonecutting": {
-    "criteria": {
-      "has_diorite": "2025-05-05 21:26:55 +0800"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/building_blocks/straw_bale": {
-    "criteria": {
-      "has_straw": "2025-05-05 21:34:46 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/diamond_leggings": {
-    "criteria": {
-      "has_diamond": "2025-05-05 22:33:35 +0800"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/stone_corner_trim": {
-    "criteria": {
-      "has_stone_corner_trim": "2025-05-05 22:32:51 +0800"
     },
     "done": true
   },
@@ -7634,33 +6256,501 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/brown_stained_glass": {
+  "stoneworks:recipes/building_blocks/andesite_brick_slab_from_andesite_stonecutting": {
     "criteria": {
-      "has_glass": "2025-05-05 22:22:21 +0800"
+      "has_andesite": "2025-05-05 21:37:25 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/glass": {
+  "stoneworks:recipes/building_blocks/andesite_paver_wall_from_andesite_stonecutting": {
     "criteria": {
-      "has_smelts_to_glass": "2025-05-05 22:21:21 +0800"
+      "has_andesite": "2025-05-05 21:37:25 +0800"
     },
     "done": true
   },
-  "farmersdelight:recipes/building_blocks/tatami": {
+  "minecraft:recipes/building_blocks/polished_andesite": {
     "criteria": {
-      "has_canvas": "2025-05-05 21:34:54 +0800"
+      "has_andesite": "2025-05-05 21:37:25 +0800"
     },
     "done": true
   },
-  "handcrafted:recipes/misc/diorite_pillar_trim": {
+  "stoneworks:recipes/building_blocks/mossy_cobbled_andesite_wall_from_andesite_stonecutting": {
     "criteria": {
-      "has_diorite_pillar_trim": "2025-05-05 21:26:55 +0800"
+      "has_andesite": "2025-05-05 21:37:25 +0800"
     },
     "done": true
   },
-  "stoneworks:recipes/building_blocks/stone_shingles_from_stone_stonecutting": {
+  "minecraft:recipes/decorations/andesite_wall": {
     "criteria": {
-      "has_stone": "2025-05-05 22:32:51 +0800"
+      "has_andesite": "2025-05-05 21:37:25 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/andesite_paver_stairs_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2025-05-05 21:37:25 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2025-05-05 21:40:49 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2025-05-05 21:40:49 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2025-05-05 21:40:49 +0800"
+    },
+    "done": true
+  },
+  "crabbersdelight:recipes/food/kelp_shake": {
+    "criteria": {
+      "has_kelp": "2025-05-05 21:40:49 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2025-05-05 21:41:25 +0800"
+    },
+    "done": true
+  },
+  "bygonenether:root": {
+    "criteria": {
+      "entered_nether": "2025-05-05 21:42:59 +0800"
+    },
+    "done": true
+  },
+  "adorabuild_structures:nether_structures": {
+    "criteria": {
+      "example": "2025-05-05 21:42:59 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2025-05-05 21:42:59 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2025-05-05 21:42:59 +0800"
+    },
+    "done": true
+  },
+  "betternether:enter_nether": {
+    "criteria": {
+      "entered_nether": "2025-05-05 21:42:59 +0800"
+    },
+    "done": true
+  },
+  "betternether:all_the_biomes": {
+    "criteria": {
+      "betternether:old_warped_woods": "2025-05-05 21:43:10 +0800"
+    },
+    "done": false
+  },
+  "blue_skies:recipes/building_blocks/glowing_blinding_stone": {
+    "criteria": {
+      "has_item": "2025-05-05 21:43:14 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2025-05-05 21:43:14 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2025-05-05 21:43:14 +0800"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/building_blocks/glowing_nature_stone": {
+    "criteria": {
+      "has_item": "2025-05-05 21:43:14 +0800"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/building_blocks/glowing_poison_stone": {
+    "criteria": {
+      "has_item": "2025-05-05 21:43:14 +0800"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/building_blocks/glowing_nature_stonebrick_from_glowstone": {
+    "criteria": {
+      "has_item": "2025-05-05 21:43:14 +0800"
+    },
+    "done": true
+  },
+  "twilightdelight:recipes/frozen/obsidian": {
+    "criteria": {
+      "has_magma_block": "2025-05-05 21:45:18 +0800"
+    },
+    "done": true
+  },
+  "netherexp:recipes/smooth_netherrack/smooth_netherrack": {
+    "criteria": {
+      "has_item": "2025-05-05 21:45:25 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cracked_netherrack_bricks_from_netherrack_stonecutting": {
+    "criteria": {
+      "has_netherrack": "2025-05-05 21:45:25 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/netherrack_brick_stairs_from_netherrack_stonecutting": {
+    "criteria": {
+      "has_netherrack": "2025-05-05 21:45:25 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/cincinnasite_fire_bowl": {
+    "criteria": {
+      "has_netherrack": "2025-05-05 21:45:25 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/misc/farmland": {
+    "criteria": {
+      "has_netherrack": "2025-05-05 21:45:25 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/polished_netherrack_wall_from_netherrack_stonecutting": {
+    "criteria": {
+      "has_netherrack": "2025-05-05 21:45:25 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/polished_netherrack_stairs_from_netherrack_stonecutting": {
+    "criteria": {
+      "has_netherrack": "2025-05-05 21:45:25 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_cobbled_netherrack_from_netherrack_stonecutting": {
+    "criteria": {
+      "has_netherrack": "2025-05-05 21:45:25 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_netherrack_bricks_from_netherrack_stonecutting": {
+    "criteria": {
+      "has_netherrack": "2025-05-05 21:45:25 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/polished_netherrack_slab_from_netherrack_stonecutting": {
+    "criteria": {
+      "has_netherrack": "2025-05-05 21:45:25 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cobbled_netherrack_wall_from_netherrack_stonecutting": {
+    "criteria": {
+      "has_netherrack": "2025-05-05 21:45:25 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_cobbled_netherrack_slab_from_netherrack_stonecutting": {
+    "criteria": {
+      "has_netherrack": "2025-05-05 21:45:25 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/copy_netherite_upgrade": {
+    "criteria": {
+      "has_netherrack": "2025-05-05 21:45:25 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_netherrack_brick_wall_from_netherrack_stonecutting": {
+    "criteria": {
+      "has_netherrack": "2025-05-05 21:45:25 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cobbled_netherrack_slab_from_netherrack_stonecutting": {
+    "criteria": {
+      "has_netherrack": "2025-05-05 21:45:25 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_netherrack_brick_slab_from_netherrack_stonecutting": {
+    "criteria": {
+      "has_netherrack": "2025-05-05 21:45:25 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cobbled_netherrack_from_netherrack_stonecutting": {
+    "criteria": {
+      "has_netherrack": "2025-05-05 21:45:25 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/netherrack_brick_slab_from_netherrack_stonecutting": {
+    "criteria": {
+      "has_netherrack": "2025-05-05 21:45:25 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2025-05-05 21:45:25 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/netherrack_brick_wall_from_netherrack_stonecutting": {
+    "criteria": {
+      "has_netherrack": "2025-05-05 21:45:25 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_cobbled_netherrack_wall_from_netherrack_stonecutting": {
+    "criteria": {
+      "has_netherrack": "2025-05-05 21:45:25 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/polished_netherrack_from_netherrack_stonecutting": {
+    "criteria": {
+      "has_netherrack": "2025-05-05 21:45:25 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/netherrack_furnace": {
+    "criteria": {
+      "has_netherrack": "2025-05-05 21:45:25 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_netherrack_brick_stairs_from_netherrack_stonecutting": {
+    "criteria": {
+      "has_netherrack": "2025-05-05 21:45:25 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cobbled_netherrack_stairs_from_netherrack_stonecutting": {
+    "criteria": {
+      "has_netherrack": "2025-05-05 21:45:25 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/bricks_fire_bowl": {
+    "criteria": {
+      "has_netherrack": "2025-05-05 21:45:25 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/mossy_cobbled_netherrack_stairs_from_netherrack_stonecutting": {
+    "criteria": {
+      "has_netherrack": "2025-05-05 21:45:25 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/netherrack_bricks_from_netherrack_stonecutting": {
+    "criteria": {
+      "has_netherrack": "2025-05-05 21:45:25 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/blue_ice_freezing": {
+    "criteria": {
+      "has_water_bucket": "2025-05-05 21:48:34 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/packed_ice_freezing": {
+    "criteria": {
+      "has_water_bucket": "2025-05-05 21:48:34 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/shadow_berry_jelly": {
+    "criteria": {
+      "has_tag_c_water_bottles": "2025-05-05 21:48:34 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/ice_from_bucket_freezing": {
+    "criteria": {
+      "has_water_bucket": "2025-05-05 21:48:34 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/blossom_berry_jelly": {
+    "criteria": {
+      "has_tag_c_water_bottles": "2025-05-05 21:48:34 +0800"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/soap": {
+    "criteria": {
+      "has_water_bucket": "2025-05-05 21:48:34 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2025-05-05 21:48:34 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2025-05-05 21:50:11 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/kitchen_hood_pipe": {
+    "criteria": {
+      "has_kitchen_hood_pipe": "2025-05-05 21:50:17 +0800"
+    },
+    "done": true
+  },
+  "decorative_blocks:recipes/decorations/brazier": {
+    "criteria": {
+      "has_bar": "2025-05-05 21:50:17 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/iron_ladder": {
+    "criteria": {
+      "has_iron_bars": "2025-05-05 21:50:17 +0800"
+    },
+    "done": true
+  },
+  "decorative_blocks:recipes/decorations/soul_brazier": {
+    "criteria": {
+      "has_bar": "2025-05-05 21:50:17 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/kitchen_hood": {
+    "criteria": {
+      "has_kitchen_hood": "2025-05-05 21:50:17 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/cure_zombie_villager": {
+    "criteria": {
+      "cured_zombie": "2025-05-05 21:54:13 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2025-05-05 21:56:33 +0800"
+    },
+    "done": true
+  },
+  "galosphere:recipes/decorations/allurite_lamp": {
+    "criteria": {
+      "has_glowstone": "2025-05-05 21:56:33 +0800"
+    },
+    "done": true
+  },
+  "galosphere:recipes/decorations/lumiere_lamp": {
+    "criteria": {
+      "has_glowstone": "2025-05-05 21:56:33 +0800"
+    },
+    "done": true
+  },
+  "galosphere:recipes/decorations/amethyst_lamp": {
+    "criteria": {
+      "has_glowstone": "2025-05-05 21:56:33 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/cincinnasite_lantern": {
+    "criteria": {
+      "has_glowstone": "2025-05-05 21:56:33 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/misc/aether_iron_nugget_from_blasting": {
+    "criteria": {
+      "has_chainmail_gloves": "2025-05-05 21:57:16 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/misc/aether_iron_nugget_from_smelting": {
+    "criteria": {
+      "has_chainmail_gloves": "2025-05-05 21:57:16 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/chainmail_gloves_repairing": {
+    "criteria": {
+      "has_chainmail_gloves": "2025-05-05 21:57:16 +0800"
+    },
+    "done": true
+  },
+  "delightful:recipes/knives/nether_quartz_knife": {
+    "criteria": {
+      "has_gems/quartz": "2025-05-05 21:58:06 +0800"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/blackboard": {
+    "criteria": {
+      "supplementaries:blackboard_white": "2025-05-05 21:58:06 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/daylight_detector": {
+    "criteria": {
+      "has_quartz": "2025-05-05 21:58:06 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite": {
+    "criteria": {
+      "has_quartz": "2025-05-05 21:58:06 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite": {
+    "criteria": {
+      "has_quartz": "2025-05-05 21:58:06 +0800"
+    },
+    "done": true
+  },
+  "twigs:recipes/bloodstone/bloodstone": {
+    "criteria": {
+      "has_item": "2025-05-05 21:58:06 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/comparator": {
+    "criteria": {
+      "has_quartz": "2025-05-05 21:58:06 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/quartz_glass_smelting": {
+    "criteria": {
+      "has_item.minecraft.quartz": "2025-05-05 21:58:06 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_block": {
+    "criteria": {
+      "has_quartz": "2025-05-05 21:58:06 +0800"
     },
     "done": true
   },
@@ -7676,9 +6766,226 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/observer": {
+    "criteria": {
+      "has_quartz": "2025-05-05 21:58:06 +0800"
+    },
+    "done": true
+  },
+  "netherexp:recipes/misc/soul_skeleton_skull_candle": {
+    "criteria": {
+      "has_item": "2025-05-05 21:58:27 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/brick_pot": {
+    "criteria": {
+      "has_soul_sand": "2025-05-05 21:58:27 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2025-05-05 21:58:27 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/cincinnasite_fire_bowl_soul": {
+    "criteria": {
+      "has_soul_sand": "2025-05-05 21:58:27 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/bricks_fire_bowl_soul": {
+    "criteria": {
+      "has_soul_sand": "2025-05-05 21:58:27 +0800"
+    },
+    "done": true
+  },
+  "netherexp:recipes/bone_blocks/wither/soul_burning_skull_block": {
+    "criteria": {
+      "has_item": "2025-05-05 21:58:27 +0800"
+    },
+    "done": true
+  },
+  "netherexp:recipes/misc/soul_magma_block": {
+    "criteria": {
+      "has_item2": "2025-05-05 21:58:27 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/building_blocks/soul_sand_soul_sandstone": {
+    "criteria": {
+      "has_soul_sand": "2025-05-05 21:58:27 +0800"
+    },
+    "done": true
+  },
+  "netherexp:recipes/misc/soul_torch_from_fossil_fuel": {
+    "criteria": {
+      "has_item": "2025-05-05 21:58:27 +0800"
+    },
+    "done": true
+  },
+  "netherexp:recipes/bone_blocks/soul_burning_skull_block": {
+    "criteria": {
+      "has_item": "2025-05-05 21:58:27 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2025-05-05 21:58:27 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/decorations/cincinnasite_pot": {
+    "criteria": {
+      "has_soul_sand": "2025-05-05 21:58:27 +0800"
+    },
+    "done": true
+  },
+  "netherexp:recipes/misc/soul_candle": {
+    "criteria": {
+      "has_planks": "2025-05-05 21:58:27 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:warped_forest": "2025-05-05 21:59:10 +0800"
+    },
+    "done": false
+  },
+  "twigs:recipes/lamps/warped_shroomlamp": {
+    "criteria": {
+      "has_item": "2025-05-05 22:00:10 +0800"
+    },
+    "done": true
+  },
+  "twigs:recipes/lamps/crimson_shroomlamp": {
+    "criteria": {
+      "has_item": "2025-05-05 22:00:10 +0800"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/end_stone_lamp": {
+    "criteria": {
+      "has_shroomlight": "2025-05-05 22:00:10 +0800"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/stone_lamp": {
+    "criteria": {
+      "has_shroomlight": "2025-05-05 22:00:10 +0800"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/deepslate_lamp": {
+    "criteria": {
+      "has_shroomlight": "2025-05-05 22:00:10 +0800"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/blackstone_lamp": {
+    "criteria": {
+      "has_shroomlight": "2025-05-05 22:00:10 +0800"
+    },
+    "done": true
+  },
+  "aether:enter_aether": {
+    "criteria": {
+      "enter_aether": "2025-05-05 22:03:08 +0800"
+    },
+    "done": true
+  },
+  "aether:the_aether": {
+    "criteria": {
+      "the_aether": "2025-05-05 22:03:08 +0800"
+    },
+    "done": true
+  },
+  "deep_aether:explore_aether": {
+    "criteria": {
+      "aether:skyroot_meadow": "2025-05-06 21:42:52 +0800",
+      "aether:skyroot_forest": "2025-05-05 22:03:09 +0800"
+    },
+    "done": false
+  },
+  "aether_redux:recipes/combat/enchanted_ring": {
+    "criteria": {
+      "has_ambrosium_shard": "2025-05-05 22:03:46 +0800"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/misc/sentrite_lantern": {
+    "criteria": {
+      "has_ambrosium_shard": "2025-05-05 22:03:46 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/ambrosium_block": {
+    "criteria": {
+      "has_ambrosium_shard": "2025-05-05 22:03:46 +0800"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/misc/veridium_lantern": {
+    "criteria": {
+      "has_ambrosium_shard": "2025-05-05 22:03:46 +0800"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/misc/smelt_raw_veridium": {
+    "criteria": {
+      "has_raw_veridium": "2025-05-05 22:03:53 +0800"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/building_blocks/raw_veridium_block": {
+    "criteria": {
+      "has_raw_veridium": "2025-05-05 22:03:53 +0800"
+    },
+    "done": true
+  },
   "aether_redux:recipes/misc/blast_raw_veridium": {
     "criteria": {
       "has_raw_veridium": "2025-05-05 22:03:53 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2025-05-05 22:05:46 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/iron_pickaxe_repairing": {
+    "criteria": {
+      "has_iron_pickaxe": "2025-05-05 22:05:46 +0800"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/sign_post_oak": {
+    "criteria": {
+      "has_oak_sign": "2025-05-05 22:12:09 +0800"
+    },
+    "done": true
+  },
+  "friendsandfoes:adventure/complete_hide_and_seek_game": {
+    "criteria": {
+      "friendsandfoes:complete_hide_and_seek_game": "2025-05-05 22:15:34 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_gold_ore": {
+    "criteria": {
+      "has_gold_ore": "2025-05-05 22:15:46 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_gold_ore": {
+    "criteria": {
+      "has_gold_ore": "2025-05-05 22:15:46 +0800"
     },
     "done": true
   },
@@ -7688,27 +6995,183 @@
     },
     "done": true
   },
-  "blue_skies:recipes/building_blocks/glowing_nature_stonebrick_from_glowstone": {
+  "betterend:recipes/misc/blossom_berry_jelly_potion": {
     "criteria": {
-      "has_item": "2025-05-05 21:43:14 +0800"
+      "has_sugar": "2025-05-05 22:20:12 +0800"
     },
     "done": true
   },
-  "stoneworks:recipes/building_blocks/andesite_brick_slab_from_andesite_stonecutting": {
+  "supplementaries:recipes/sugar_cube": {
     "criteria": {
-      "has_andesite": "2025-05-05 21:37:25 +0800"
+      "has_sugar": "2025-05-05 22:20:12 +0800"
     },
     "done": true
   },
-  "aether:recipes/combat/chainmail_gloves_repairing": {
+  "betterend:recipes/misc/shadow_berry_jelly_potion": {
     "criteria": {
-      "has_chainmail_gloves": "2025-05-05 21:57:16 +0800"
+      "has_sugar": "2025-05-05 22:20:12 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/smooth_stone": {
+  "delightful:recipes/food/marshmallow_stick": {
     "criteria": {
-      "has_stone": "2025-05-05 22:32:51 +0800"
+      "has_sugar": "2025-05-05 22:20:12 +0800"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/candy": {
+    "criteria": {
+      "has_sugar": "2025-05-05 22:20:12 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/cave_pumpkin_pie": {
+    "criteria": {
+      "has_sugar": "2025-05-05 22:20:12 +0800"
+    },
+    "done": true
+  },
+  "yungscavebiomes:recipes/building_blocks/brittle_sandstone": {
+    "criteria": {
+      "has_sand": "2025-05-05 22:21:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone": {
+    "criteria": {
+      "has_sand": "2025-05-05 22:21:21 +0800"
+    },
+    "done": true
+  },
+  "twigs:recipes/silt/silt_from_sand": {
+    "criteria": {
+      "has_item": "2025-05-05 22:21:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glass": {
+    "criteria": {
+      "has_smelts_to_glass": "2025-05-05 22:21:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_blue_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-05-05 22:22:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_gray_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-05-05 22:22:21 +0800"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/hourglass": {
+    "criteria": {
+      "has_glass": "2025-05-05 22:22:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/green_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-05-05 22:22:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-05-05 22:22:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glass_bottle": {
+    "criteria": {
+      "has_glass": "2025-05-05 22:22:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purple_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-05-05 22:22:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/black_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-05-05 22:22:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gray_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-05-05 22:22:21 +0800"
+    },
+    "done": true
+  },
+  "hearth_and_home:recipes/barred_glass": {
+    "criteria": {
+      "has_item": "2025-05-05 22:22:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glass_pane": {
+    "criteria": {
+      "has_glass": "2025-05-05 22:22:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/yellow_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-05-05 22:22:21 +0800"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/jar": {
+    "criteria": {
+      "has_glass": "2025-05-05 22:22:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/orange_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-05-05 22:22:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-05-05 22:22:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-05-05 22:22:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lime_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-05-05 22:22:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pink_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-05-05 22:22:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cyan_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-05-05 22:22:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brown_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-05-05 22:22:21 +0800"
     },
     "done": true
   },
@@ -7718,27 +7181,261 @@
     },
     "done": true
   },
-  "stoneworks:recipes/building_blocks/andesite_paver_wall_from_andesite_stonecutting": {
-    "criteria": {
-      "has_andesite": "2025-05-05 21:37:25 +0800"
-    },
-    "done": true
-  },
   "betterend:recipes/misc/tined_glass_from_smaragdant": {
     "criteria": {
       "has_glass": "2025-05-05 22:22:21 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/observer": {
+  "aether:recipes/decorations/skyroot_grindstone": {
     "criteria": {
-      "has_quartz": "2025-05-05 21:58:06 +0800"
+      "has_stone_slab": "2025-05-05 22:32:48 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/furnace_minecart": {
+  "minecraft:recipes/decorations/grindstone": {
     "criteria": {
-      "has_minecart": "2025-05-05 21:20:06 +0800"
+      "has_stone_slab": "2025-05-05 22:32:48 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/creeper_trophy": {
+    "criteria": {
+      "has_creeper_trophy": "2025-05-05 22:32:51 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-05-05 22:32:51 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/stone_tile_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-05-05 22:32:51 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/skeleton_trophy": {
+    "criteria": {
+      "has_skeleton_trophy": "2025-05-05 22:32:51 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs": {
+    "criteria": {
+      "has_stone": "2025-05-05 22:32:51 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/stone_paver_wall_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-05-05 22:32:51 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stonecutter": {
+    "criteria": {
+      "has_stone": "2025-05-05 22:32:51 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/stone_pillar_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-05-05 22:32:51 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-05-05 22:32:51 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-05-05 22:32:51 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/stone_plate_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-05-05 22:32:51 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/stone_plate_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-05-05 22:32:51 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/stone_plate_wall_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-05-05 22:32:51 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_slab": {
+    "criteria": {
+      "has_stone": "2025-05-05 22:32:51 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/stone_tile_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-05-05 22:32:51 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_button": {
+    "criteria": {
+      "has_stone": "2025-05-05 22:32:51 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/stone_paver_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-05-05 22:32:51 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/pillager_trophy": {
+    "criteria": {
+      "has_pillager_trophy": "2025-05-05 22:32:51 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/stone_plates_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-05-05 22:32:51 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/stone_shingle_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-05-05 22:32:51 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/cracked_stone_tiles_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-05-05 22:32:51 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/stone_tiles_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-05-05 22:32:51 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/stone_pillar_trim": {
+    "criteria": {
+      "has_stone_pillar_trim": "2025-05-05 22:32:51 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/stone_shingle_wall_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-05-05 22:32:51 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/vindicator_trophy": {
+    "criteria": {
+      "has_vindicator_trophy": "2025-05-05 22:32:51 +0800"
+    },
+    "done": true
+  },
+  "twigs:recipes/columns/stone_column": {
+    "criteria": {
+      "has_item": "2025-05-05 22:32:51 +0800"
+    },
+    "done": true
+  },
+  "twigs:recipes/columns/stone_column_stonecutting": {
+    "criteria": {
+      "has_item": "2025-05-05 22:32:51 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-05-05 22:32:51 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-05-05 22:32:51 +0800"
+    },
+    "done": true
+  },
+  "decorative_blocks:recipes/building_blocks/stone_pillar": {
+    "criteria": {
+      "has_stone": "2025-05-05 22:32:51 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_bricks": {
+    "criteria": {
+      "has_stone": "2025-05-05 22:32:51 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/stone_pavers_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-05-05 22:32:51 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_bricks_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-05-05 22:32:51 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_pressure_plate": {
+    "criteria": {
+      "has_stone": "2025-05-05 22:32:51 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/stone_tile_wall_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-05-05 22:32:51 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/stone_paver_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-05-05 22:32:51 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/evoker_trophy": {
+    "criteria": {
+      "has_evoker_trophy": "2025-05-05 22:32:51 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/stone_corner_trim": {
+    "criteria": {
+      "has_stone_corner_trim": "2025-05-05 22:32:51 +0800"
+    },
+    "done": true
+  },
+  "stoneworks:recipes/building_blocks/stone_shingles_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-05-05 22:32:51 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone": {
+    "criteria": {
+      "has_stone": "2025-05-05 22:32:51 +0800"
     },
     "done": true
   },
@@ -7754,75 +7451,165 @@
     },
     "done": true
   },
-  "netherexp:recipes/misc/soul_candle": {
-    "criteria": {
-      "has_planks": "2025-05-05 21:58:27 +0800"
-    },
-    "done": true
-  },
-  "minecraft:story/cure_zombie_villager": {
-    "criteria": {
-      "cured_zombie": "2025-05-05 21:54:13 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_andesite": {
-    "criteria": {
-      "has_andesite": "2025-05-05 21:37:25 +0800"
-    },
-    "done": true
-  },
-  "farmersdelight:main/harvest_straw": {
-    "criteria": {
-      "harvest_straw": "2025-05-05 21:34:46 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
     "criteria": {
       "has_stone": "2025-05-05 22:32:51 +0800"
     },
     "done": true
   },
-  "stoneworks:recipes/building_blocks/mossy_cobbled_netherrack_stairs_from_netherrack_stonecutting": {
+  "betternether:recipes/misc/copy_bowl_upgrade": {
     "criteria": {
-      "has_netherrack": "2025-05-05 21:45:25 +0800"
+      "has_diamond": "2025-05-05 22:33:35 +0800"
     },
     "done": true
   },
-  "stoneworks:recipes/building_blocks/mossy_cobbled_andesite_wall_from_andesite_stonecutting": {
+  "minecraft:recipes/combat/diamond_sword": {
     "criteria": {
-      "has_andesite": "2025-05-05 21:37:25 +0800"
+      "has_diamond": "2025-05-05 22:33:35 +0800"
     },
     "done": true
   },
-  "stoneworks:recipes/building_blocks/netherrack_bricks_from_netherrack_stonecutting": {
+  "minecraft:recipes/decorations/jukebox": {
     "criteria": {
-      "has_netherrack": "2025-05-05 21:45:25 +0800"
+      "has_diamond": "2025-05-05 22:33:35 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/andesite_wall": {
+  "betternether:recipes/tools/cincinnasite_hoe_diamond": {
     "criteria": {
-      "has_andesite": "2025-05-05 21:37:25 +0800"
+      "has_item.minecraft.diamond": "2025-05-05 22:33:35 +0800"
     },
     "done": true
   },
-  "shieldexp:recipes/golden_shield": {
+  "minecraft:recipes/tools/diamond_pickaxe": {
     "criteria": {
-      "has_gold_ingot": "2025-05-05 22:34:50 +0800"
+      "has_diamond": "2025-05-05 22:33:35 +0800"
     },
     "done": true
   },
-  "stoneworks:recipes/building_blocks/andesite_paver_stairs_from_andesite_stonecutting": {
+  "advancednetherite:recipes/misc/netherite_diamond_ingot": {
     "criteria": {
-      "has_andesite": "2025-05-05 21:37:25 +0800"
+      "has_TagKey[minecraft:item / forge:gems/diamond]": "2025-05-05 22:33:35 +0800"
     },
     "done": true
   },
-  "supplementaries:recipes/lapis_bricks": {
+  "betternether:recipes/tools/cincinnasite_pickaxe_diamond": {
     "criteria": {
-      "has_lapis_lazuli": "2025-05-05 21:23:34 +0800"
+      "has_item.minecraft.diamond": "2025-05-05 22:33:35 +0800"
+    },
+    "done": true
+  },
+  "shieldexp:recipes/diamond_shield": {
+    "criteria": {
+      "has_diamond": "2025-05-05 22:33:35 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_helmet": {
+    "criteria": {
+      "has_diamond": "2025-05-05 22:33:35 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/tools/cincinnasite_axe_diamond": {
+    "criteria": {
+      "has_item.minecraft.diamond": "2025-05-05 22:33:35 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2025-05-05 22:33:35 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/diamond_knife": {
+    "criteria": {
+      "has_diamond": "2025-05-05 22:33:35 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/skyroot_jukebox": {
+    "criteria": {
+      "has_diamond": "2025-05-05 22:33:35 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/tools/cincinnasite_shovel_diamond": {
+    "criteria": {
+      "has_item.minecraft.diamond": "2025-05-05 22:33:35 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_hoe": {
+    "criteria": {
+      "has_diamond": "2025-05-05 22:33:35 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diamond_block": {
+    "criteria": {
+      "has_diamond": "2025-05-05 22:33:35 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_boots": {
+    "criteria": {
+      "has_diamond": "2025-05-05 22:33:35 +0800"
+    },
+    "done": true
+  },
+  "magnumtorch:recipes/decorations/diamond_magnum_torch": {
+    "criteria": {
+      "has_diamond": "2025-05-05 22:33:35 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/combat/cincinnasite_sword_diamond": {
+    "criteria": {
+      "has_item.minecraft.diamond": "2025-05-05 22:33:35 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/misc/copy_flaming_ruby_upgrade": {
+    "criteria": {
+      "has_diamond": "2025-05-05 22:33:35 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/misc/copy_cincinnasite_diamond_upgrade": {
+    "criteria": {
+      "has_diamond": "2025-05-05 22:33:35 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_chestplate": {
+    "criteria": {
+      "has_diamond": "2025-05-05 22:33:35 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_shovel": {
+    "criteria": {
+      "has_diamond": "2025-05-05 22:33:35 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/diamond_gloves": {
+    "criteria": {
+      "has_diamond": "2025-05-05 22:33:35 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/copy_aeternium_upgrade": {
+    "criteria": {
+      "has_diamond": "2025-05-05 22:33:35 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_leggings": {
+    "criteria": {
+      "has_diamond": "2025-05-05 22:33:35 +0800"
     },
     "done": true
   },
@@ -7832,9 +7619,1605 @@
     },
     "done": true
   },
-  "crabbersdelight:recipes/food/kelp_shake": {
+  "minecraft:recipes/food/golden_apple": {
     "criteria": {
-      "has_kelp": "2025-05-05 21:40:49 +0800"
+      "has_gold_ingot": "2025-05-05 22:34:50 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_boots": {
+    "criteria": {
+      "has_gold_ingot": "2025-05-05 22:34:50 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/golden_knife": {
+    "criteria": {
+      "has_gold_ingot": "2025-05-05 22:34:50 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gold_block": {
+    "criteria": {
+      "has_gold_ingot": "2025-05-05 22:34:50 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_helmet": {
+    "criteria": {
+      "has_gold_ingot": "2025-05-05 22:34:50 +0800"
+    },
+    "done": true
+  },
+  "barteringstation:recipes/decorations/bartering_station": {
+    "criteria": {
+      "has_gold_ingot": "2025-05-05 22:34:50 +0800"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/gold_door": {
+    "criteria": {
+      "has_gold_ingot": "2025-05-05 22:34:50 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/golden_pendant": {
+    "criteria": {
+      "has_gold_ingot": "2025-05-05 22:34:50 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_axe": {
+    "criteria": {
+      "has_gold_ingot": "2025-05-05 22:34:50 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
+    "criteria": {
+      "has_gold_ingot": "2025-05-05 22:34:50 +0800"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/gold_chandelier": {
+    "criteria": {
+      "has_gold_ingot": "2025-05-05 22:34:50 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/golden_gloves": {
+    "criteria": {
+      "has_gold": "2025-05-05 22:34:50 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_leggings": {
+    "criteria": {
+      "has_gold_ingot": "2025-05-05 22:34:50 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget": {
+    "criteria": {
+      "has_gold_ingot": "2025-05-05 22:34:50 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_shovel": {
+    "criteria": {
+      "has_gold_ingot": "2025-05-05 22:34:50 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_chestplate": {
+    "criteria": {
+      "has_gold_ingot": "2025-05-05 22:34:50 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/golden_ring": {
+    "criteria": {
+      "has_gold_ingot": "2025-05-05 22:34:50 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_sword": {
+    "criteria": {
+      "has_gold_ingot": "2025-05-05 22:34:50 +0800"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/gold_trapdoor": {
+    "criteria": {
+      "has_gold_ingot": "2025-05-05 22:34:50 +0800"
+    },
+    "done": true
+  },
+  "galosphere:recipes/decorations/gilded_beads": {
+    "criteria": {
+      "has_gold_ingot": "2025-05-05 22:34:50 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_hoe": {
+    "criteria": {
+      "has_gold_ingot": "2025-05-05 22:34:50 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_pickaxe": {
+    "criteria": {
+      "has_gold_ingot": "2025-05-05 22:34:50 +0800"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_gold_ingot": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/gold]": "2025-05-05 22:34:50 +0800"
+    },
+    "done": true
+  },
+  "shieldexp:recipes/golden_shield": {
+    "criteria": {
+      "has_gold_ingot": "2025-05-05 22:34:50 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/transportation/nether_mushroom_chest_boat": {
+    "criteria": {
+      "has_tag_c_chest": "2025-05-05 22:36:18 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/transportation/willow_chest_boat": {
+    "criteria": {
+      "has_tag_c_chest": "2025-05-05 22:36:18 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/transportation/crimson_chest_boat": {
+    "criteria": {
+      "has_tag_c_chest": "2025-05-05 22:36:18 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/transportation/nether_reed_chest_boat": {
+    "criteria": {
+      "has_tag_c_chest": "2025-05-05 22:36:18 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/transportation/nether_sakura_chest_boat": {
+    "criteria": {
+      "has_tag_c_chest": "2025-05-05 22:36:18 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/transportation/anchor_tree_chest_boat": {
+    "criteria": {
+      "has_tag_c_chest": "2025-05-05 22:36:18 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/transportation/warped_chest_boat": {
+    "criteria": {
+      "has_tag_c_chest": "2025-05-05 22:36:18 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/transportation/mushroom_fir_chest_boat": {
+    "criteria": {
+      "has_tag_c_chest": "2025-05-05 22:36:18 +0800"
+    },
+    "done": true
+  },
+  "bclib:recipes/decorations/tag_shulker_box": {
+    "criteria": {
+      "has_tag_c_chest": "2025-05-05 22:36:18 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/transportation/rubeus_chest_boat": {
+    "criteria": {
+      "has_tag_c_chest": "2025-05-05 22:36:18 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/transportation/stalagnate_chest_boat": {
+    "criteria": {
+      "has_tag_c_chest": "2025-05-05 22:36:18 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/transportation/wart_chest_boat": {
+    "criteria": {
+      "has_tag_c_chest": "2025-05-05 22:36:18 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_tulip": {
+    "criteria": {
+      "has_red_flower": "2025-05-05 22:37:51 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/combat/equipment/fiery_helmet": {
+    "criteria": {
+      "has_item": "2025-05-06 21:08:18 +0800"
+    },
+    "done": true
+  },
+  "twilightdelight:recipes/misc/fiery_knife": {
+    "criteria": {
+      "has_fiery_ingot": "2025-05-06 21:08:18 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/combat/equipment/fiery_chestplate": {
+    "criteria": {
+      "has_item": "2025-05-06 21:08:18 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/combat/equipment/fiery_leggings": {
+    "criteria": {
+      "has_item": "2025-05-06 21:08:18 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/compressed_blocks/fiery_block": {
+    "criteria": {
+      "has_item": "2025-05-06 21:08:18 +0800"
+    },
+    "done": true
+  },
+  "twilightdelight:recipes/misc/fiery_cooking_pot": {
+    "criteria": {
+      "has_fiery_ingot": "2025-05-06 21:08:18 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/tools/equipment/fiery_pickaxe": {
+    "criteria": {
+      "has_item": "2025-05-06 21:08:18 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/combat/equipment/fiery_boots": {
+    "criteria": {
+      "has_item": "2025-05-06 21:08:18 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/combat/equipment/fiery_sword": {
+    "criteria": {
+      "has_item": "2025-05-06 21:08:18 +0800"
+    },
+    "done": true
+  },
+  "twilightdelight:recipes/misc/fiery_knifealt": {
+    "criteria": {
+      "has_fiery_ingot": "2025-05-06 21:08:18 +0800"
+    },
+    "done": true
+  },
+  "umbral_skies:recipes/combat/fiery_gloves": {
+    "criteria": {
+      "has_item": "2025-05-06 21:08:18 +0800"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/crimson_mosquito": {
+    "criteria": {
+      "killed_by": "2025-05-06 21:13:42 +0800"
+    },
+    "done": true
+  },
+  "backpacked:recipes/misc/backpack": {
+    "criteria": {
+      "has_the_recipe": "2025-05-06 21:22:16 +0800"
+    },
+    "done": true
+  },
+  "hearth_and_home:recipes/thatch": {
+    "criteria": {
+      "has_item": "2025-05-06 21:23:42 +0800"
+    },
+    "done": true
+  },
+  "incubation:recipes/decorations/hay_nest": {
+    "criteria": {
+      "has_wheat": "2025-05-06 21:23:42 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/pie_crust": {
+    "criteria": {
+      "has_wheat": "2025-05-06 21:23:42 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/wheat_dough_from_eggs": {
+    "criteria": {
+      "has_wheat": "2025-05-06 21:23:42 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2025-05-06 21:23:42 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2025-05-06 21:23:42 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/wheat_dough_from_water": {
+    "criteria": {
+      "has_wheat": "2025-05-06 21:23:42 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/iron_gloves_repairing": {
+    "criteria": {
+      "has_iron_gloves": "2025-05-06 21:28:30 +0800"
+    },
+    "done": true
+  },
+  "aether:read_lore": {
+    "criteria": {
+      "lore_book_entry": "2025-05-06 21:28:36 +0800"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/food/blueberry_bagel": {
+    "criteria": {
+      "has_blue_berry": "2025-05-06 21:36:37 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/food/enchanted_berry_enchanting": {
+    "criteria": {
+      "has_blue_berry": "2025-05-06 21:36:37 +0800"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/food/blueberry_pie": {
+    "criteria": {
+      "has_blue_berry": "2025-05-06 21:36:37 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/misc/flower_to_white_dye": {
+    "criteria": {
+      "has_white_flower": "2025-05-06 21:37:16 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/skyroot_planks": {
+    "criteria": {
+      "has_logs": "2025-05-06 21:37:54 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hollow_skyroot_log_from_skyroot_log_stonecutting": {
+    "criteria": {
+      "has_skyroot_log": "2025-05-06 21:37:54 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/skyroot_wood": {
+    "criteria": {
+      "has_log": "2025-05-06 21:37:54 +0800"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/vanilla_gummy_swet": {
+    "criteria": {
+      "has_vanilla_swet_ball": "2025-05-06 21:38:15 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/redstone/swet_sticky_piston": {
+    "criteria": {
+      "has_swet_balls": "2025-05-06 21:38:15 +0800"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/food/vanilla_swet_jelly": {
+    "criteria": {
+      "has_vanilla_swet_ball": "2025-05-06 21:38:15 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/redstone/swet_slime_block": {
+    "criteria": {
+      "has_swet_balls": "2025-05-06 21:38:15 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/swet_lead": {
+    "criteria": {
+      "has_swet_balls": "2025-05-06 21:38:15 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/tf/aether/skyroot_banister": {
+    "criteria": {
+      "has_item": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/skyroot_fence": {
+    "criteria": {
+      "has_skyroot_planks": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hc/aether/skyroot_nightstand": {
+    "criteria": {
+      "has_item": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/q/aether/vertical_skyroot_planks": {
+    "criteria": {
+      "has_item": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/q/aether/stripped_skyroot_post": {
+    "criteria": {
+      "has_item": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hc/aether/skyroot_corner_trim": {
+    "criteria": {
+      "has_item": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hnhome/aether/skyroot_sanded_wood": {
+    "criteria": {
+      "has_item": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hnhome/aether/skyroot_parquet": {
+    "criteria": {
+      "has_item": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/redstone/skyroot_fence_gate": {
+    "criteria": {
+      "has_skyroot_planks": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/af/aether/skyroot_drawer": {
+    "criteria": {
+      "has_item": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/building_blocks/db/aether/skyroot_seat": {
+    "criteria": {
+      "has_item": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/building_blocks/db/aether/skyroot_support": {
+    "criteria": {
+      "has_item": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/abnbl/aether/skyroot_furnace_boat": {
+    "criteria": {
+      "has_item": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/q/aether/skyroot_chest": {
+    "criteria": {
+      "has_item": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hnhome/aether/skyroot_vertical_trim": {
+    "criteria": {
+      "has_item": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/fd/aether/skyroot_cabinet": {
+    "criteria": {
+      "has_item": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hc/aether/skyroot_cupboard": {
+    "criteria": {
+      "has_item": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/decorations/skyroot_crafting_table": {
+    "criteria": {
+      "has_skyroot_planks": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/af/aether/skyroot_bench": {
+    "criteria": {
+      "has_item": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/skyroot_axe": {
+    "criteria": {
+      "has_planks": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/misc/skyroot_bucket": {
+    "criteria": {
+      "has_planks": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/redstone/skyroot_trapdoor": {
+    "criteria": {
+      "has_skyroot_planks": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hc/aether/skyroot_bench": {
+    "criteria": {
+      "has_item": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/af/aether/skyroot_flower_box": {
+    "criteria": {
+      "has_item": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/skyroot_crafting_table": {
+    "criteria": {
+      "has_planks": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/skyroot_shovel": {
+    "criteria": {
+      "has_planks": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hnhome/aether/skyroot_trim_from_skyroot_vertical_trim": {
+    "criteria": {
+      "has_item": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/skyroot_pickaxe": {
+    "criteria": {
+      "has_planks": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/golden_dart_shooter": {
+    "criteria": {
+      "has_skyroot_planks": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/abnbl/aether/large_skyroot_boat": {
+    "criteria": {
+      "has_item": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/tf/aether/hollow_skyroot_log": {
+    "criteria": {
+      "has_item": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hc/aether/skyroot_desk": {
+    "criteria": {
+      "has_item": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/q/aether/hollow_skyroot_log": {
+    "criteria": {
+      "has_item": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/af/aether/skyroot_shutter": {
+    "criteria": {
+      "has_item": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/skyroot_barrel": {
+    "criteria": {
+      "has_planks": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/q/aether/skyroot_post": {
+    "criteria": {
+      "has_item": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hc/aether/skyroot_table": {
+    "criteria": {
+      "has_item": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/decorations/aether/sign_post_skyroot": {
+    "criteria": {
+      "has_item": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hnhome/aether/skyroot_lattice": {
+    "criteria": {
+      "has_item": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/af/aether/skyroot_table": {
+    "criteria": {
+      "has_item": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/q/aether/skyroot_trapped_chest": {
+    "criteria": {
+      "has_item": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hc/aether/skyroot_counter": {
+    "criteria": {
+      "has_item": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hc/aether/skyroot_pillar_trim": {
+    "criteria": {
+      "has_item": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hc/aether/skyroot_fancy_bed": {
+    "criteria": {
+      "has_item": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/misc/skyroot_stick": {
+    "criteria": {
+      "has_planks": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/vp/aether/skyroot_horticulturist_table": {
+    "criteria": {
+      "has_item": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/building_blocks/db/aether/skyroot_beam": {
+    "criteria": {
+      "has_item": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hnhome/aether/skyroot_trim": {
+    "criteria": {
+      "has_item": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/building_blocks/db/aether/skyroot_palisade": {
+    "criteria": {
+      "has_item": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hc/aether/skyroot_couch": {
+    "criteria": {
+      "has_item": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hc/aether/skyroot_chair": {
+    "criteria": {
+      "has_item": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/q/aether/skyroot_ladder": {
+    "criteria": {
+      "has_item": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hc/aether/skyroot_dining_bench": {
+    "criteria": {
+      "has_item": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "suppsquared:recipes/decorations/aether/item_shelf_skyroot": {
+    "criteria": {
+      "has_item": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hc/aether/skyroot_side_table": {
+    "criteria": {
+      "has_item": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "delightful:recipes/knives/skyroot_knife": {
+    "criteria": {
+      "has_skyroot_tool_crafting": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/af/aether/skyroot_shelf": {
+    "criteria": {
+      "has_item": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hc/aether/skyroot_shelf": {
+    "criteria": {
+      "has_item": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/af/aether/skyroot_chair": {
+    "criteria": {
+      "has_item": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/faf/aether/skyroot_beehive": {
+    "criteria": {
+      "has_item": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hc/aether/skyroot_drawer": {
+    "criteria": {
+      "has_item": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/bp/aether/skyroot_backpack_shelf": {
+    "criteria": {
+      "has_item": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/skyroot_hoe": {
+    "criteria": {
+      "has_planks": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/redstone/skyroot_pressure_plate": {
+    "criteria": {
+      "has_skyroot_planks": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/tw/aether/skyroot_table": {
+    "criteria": {
+      "has_item": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/skyroot_sword": {
+    "criteria": {
+      "has_planks": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/skyroot_sign": {
+    "criteria": {
+      "has_skyroot_planks": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/skyroot_stairs": {
+    "criteria": {
+      "has_skyroot_planks": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/redstone/skyroot_button": {
+    "criteria": {
+      "has_skyroot_planks": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/redstone/skyroot_door": {
+    "criteria": {
+      "has_skyroot_planks": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/skyroot_slab": {
+    "criteria": {
+      "has_skyroot_planks": "2025-05-06 21:38:26 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/holystone_wall_from_holystone_stonecutting": {
+    "criteria": {
+      "has_holystone": "2025-05-06 21:38:40 +0800"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/building_blocks/holystone_pillar_from_holystone_stonecutting": {
+    "criteria": {
+      "has_holystone": "2025-05-06 21:38:40 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/holystone_stairs": {
+    "criteria": {
+      "has_holystone": "2025-05-06 21:38:40 +0800"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/decorations/mossy_holystone_from_aether_moss": {
+    "criteria": {
+      "has_holystone": "2025-05-06 21:38:40 +0800"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/building_blocks/holystone_pillar_down_from_holystone_stonecutting": {
+    "criteria": {
+      "has_holystone": "2025-05-06 21:38:40 +0800"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/building_blocks/big_holystone_bricks_slab_from_holystone_stonecutting": {
+    "criteria": {
+      "has_holystone": "2025-05-06 21:38:40 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/holystone_axe": {
+    "criteria": {
+      "has_holystone": "2025-05-06 21:38:40 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/redstone/holystone_button": {
+    "criteria": {
+      "has_holystone": "2025-05-06 21:38:40 +0800"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/building_blocks/big_holystone_bricks_from_holystone_stonecutting": {
+    "criteria": {
+      "has_holystone": "2025-05-06 21:38:40 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/holystone_wall": {
+    "criteria": {
+      "has_holystone": "2025-05-06 21:38:40 +0800"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/building_blocks/big_holystone_bricks_wall_from_holystone_stonecutting": {
+    "criteria": {
+      "has_holystone": "2025-05-06 21:38:40 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/incubator": {
+    "criteria": {
+      "has_holystone": "2025-05-06 21:38:40 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/holystone_slab": {
+    "criteria": {
+      "has_holystone": "2025-05-06 21:38:40 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/holystone_slab_from_holystone_stonecutting": {
+    "criteria": {
+      "has_holystone": "2025-05-06 21:38:40 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/mossy_holystone_with_vine": {
+    "criteria": {
+      "has_holystone": "2025-05-06 21:38:40 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/mossy_holystone_with_moss": {
+    "criteria": {
+      "has_holystone": "2025-05-06 21:38:40 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/holystone_pickaxe": {
+    "criteria": {
+      "has_holystone": "2025-05-06 21:38:40 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/redstone/holystone_pressure_plate": {
+    "criteria": {
+      "has_holystone": "2025-05-06 21:38:40 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/holystone_stonecutter": {
+    "criteria": {
+      "has_holystone": "2025-05-06 21:38:40 +0800"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/building_blocks/big_holystone_bricks_stairs_from_holystone_stonecutting": {
+    "criteria": {
+      "has_holystone": "2025-05-06 21:38:40 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/altar": {
+    "criteria": {
+      "has_holystone": "2025-05-06 21:38:40 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/holystone_brick_slab_from_holystone_stonecutting": {
+    "criteria": {
+      "has_holystone": "2025-05-06 21:38:40 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/holystone_brick_wall_from_holystone_stonecutting": {
+    "criteria": {
+      "has_holystone": "2025-05-06 21:38:40 +0800"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/building_blocks/chiseled_holystone_from_holystone_stonecutting": {
+    "criteria": {
+      "has_holystone": "2025-05-06 21:38:40 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/holystone_brick_stairs_from_holystone_stonecutting": {
+    "criteria": {
+      "has_holystone": "2025-05-06 21:38:40 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/holystone_bricks_from_holystone_stonecutting": {
+    "criteria": {
+      "has_holystone": "2025-05-06 21:38:40 +0800"
+    },
+    "done": true
+  },
+  "delightful:recipes/knives/holystone_knife": {
+    "criteria": {
+      "has_holystone": "2025-05-06 21:38:40 +0800"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/building_blocks/holystone_tile_slab_from_holystone_stonecutting": {
+    "criteria": {
+      "has_holystone": "2025-05-06 21:38:40 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/food/healing_stone_enchanting": {
+    "criteria": {
+      "has_holystone": "2025-05-06 21:38:40 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/holystone_sword": {
+    "criteria": {
+      "has_holystone": "2025-05-06 21:38:40 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/holystone_stairs_from_holystone_stonecutting": {
+    "criteria": {
+      "has_holystone": "2025-05-06 21:38:40 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/freezer": {
+    "criteria": {
+      "has_holystone": "2025-05-06 21:38:40 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/holystone_bricks": {
+    "criteria": {
+      "has_holystone": "2025-05-06 21:38:40 +0800"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/building_blocks/holystone_tile_stairs_from_holystone_stonecutting": {
+    "criteria": {
+      "has_holystone": "2025-05-06 21:38:40 +0800"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/building_blocks/holystone_pillar_up_from_holystone_stonecutting": {
+    "criteria": {
+      "has_holystone": "2025-05-06 21:38:40 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/holystone_hoe": {
+    "criteria": {
+      "has_holystone": "2025-05-06 21:38:40 +0800"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/building_blocks/holystone_tile_wall_from_holystone_stonecutting": {
+    "criteria": {
+      "has_holystone": "2025-05-06 21:38:40 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/holystone_shovel": {
+    "criteria": {
+      "has_holystone": "2025-05-06 21:38:40 +0800"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/building_blocks/holystone_tiles_from_holystone_stonecutting": {
+    "criteria": {
+      "has_holystone": "2025-05-06 21:38:40 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/ambrosium_torch": {
+    "criteria": {
+      "has_holystone_pickaxe": "2025-05-06 21:38:47 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/holystone_pickaxe_repairing": {
+    "criteria": {
+      "has_holystone_pickaxe": "2025-05-06 21:38:47 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/zanite_leggings": {
+    "criteria": {
+      "has_zanite": "2025-05-06 21:39:14 +0800"
+    },
+    "done": true
+  },
+  "lost_aether_content:recipes/combat/zanite_shield": {
+    "criteria": {
+      "has_zanite_gemstone": "2025-05-06 21:39:14 +0800"
+    },
+    "done": true
+  },
+  "aether:zanite": {
+    "criteria": {
+      "zanite": "2025-05-06 21:39:14 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/zanite_boots": {
+    "criteria": {
+      "has_zanite": "2025-05-06 21:39:14 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/zanite_chestplate": {
+    "criteria": {
+      "has_zanite": "2025-05-06 21:39:14 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/zanite_block": {
+    "criteria": {
+      "has_zanite_gemstone": "2025-05-06 21:39:14 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/zanite_helmet": {
+    "criteria": {
+      "has_zanite": "2025-05-06 21:39:14 +0800"
+    },
+    "done": true
+  },
+  "delightful:recipes/knives/zanite_knife": {
+    "criteria": {
+      "has_gems/zanite": "2025-05-06 21:39:14 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/skyroot_zanite_vanilla_shield": {
+    "criteria": {
+      "has_zanite_gemstone": "2025-05-06 21:39:14 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/zanite_pendant": {
+    "criteria": {
+      "has_zanite": "2025-05-06 21:39:14 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/zanite_shovel": {
+    "criteria": {
+      "has_zanite": "2025-05-06 21:39:14 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/zanite_sword": {
+    "criteria": {
+      "has_zanite": "2025-05-06 21:39:14 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/zanite_axe": {
+    "criteria": {
+      "has_zanite": "2025-05-06 21:39:14 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/nature_staff": {
+    "criteria": {
+      "has_zanite": "2025-05-06 21:39:14 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/zanite_pickaxe": {
+    "criteria": {
+      "has_zanite": "2025-05-06 21:39:14 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/zanite_gloves": {
+    "criteria": {
+      "has_zanite": "2025-05-06 21:39:14 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/zanite_hoe": {
+    "criteria": {
+      "has_zanite": "2025-05-06 21:39:14 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/wood_zanite_vanilla_shield": {
+    "criteria": {
+      "has_zanite_gemstone": "2025-05-06 21:39:14 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/zanite_ring": {
+    "criteria": {
+      "has_zanite": "2025-05-06 21:39:14 +0800"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/golden_gummy_swet": {
+    "criteria": {
+      "has_golden_swet_ball": "2025-05-06 21:39:32 +0800"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/golden_swet_jelly": {
+    "criteria": {
+      "has_item": "2025-05-06 21:39:32 +0800"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/tools/veridium_axe": {
+    "criteria": {
+      "has_veridium_ingot": "2025-05-06 21:41:29 +0800"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/combat/veridium_dart": {
+    "criteria": {
+      "has_veridium_ingot": "2025-05-06 21:41:29 +0800"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/tools/veridium_hoe": {
+    "criteria": {
+      "has_veridium_ingot": "2025-05-06 21:41:29 +0800"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/misc/veridium_nugget": {
+    "criteria": {
+      "has_veridium_ingot": "2025-05-06 21:41:29 +0800"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/building_blocks/veridium_block": {
+    "criteria": {
+      "has_veridium_ingot": "2025-05-06 21:41:29 +0800"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/combat/veridium_sword": {
+    "criteria": {
+      "has_veridium_ingot": "2025-05-06 21:41:29 +0800"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/tools/veridium_pickaxe": {
+    "criteria": {
+      "has_veridium_ingot": "2025-05-06 21:41:29 +0800"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/tools/veridium_shovel": {
+    "criteria": {
+      "has_veridium_ingot": "2025-05-06 21:41:29 +0800"
+    },
+    "done": true
+  },
+  "delightful:recipes/knives/veridium_knife": {
+    "criteria": {
+      "has_ingots/veridium": "2025-05-06 21:41:29 +0800"
+    },
+    "done": true
+  },
+  "delightful:recipes/knives/infused_veridium_knife": {
+    "criteria": {
+      "has_ingots/veridium": "2025-05-06 21:41:29 +0800"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/combat/veridium_dart_shooter": {
+    "criteria": {
+      "has_veridium_ingot": "2025-05-06 21:41:29 +0800"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/combat/skyjade_boots": {
+    "criteria": {
+      "has_skyjade": "2025-05-06 21:41:39 +0800"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/skyjade_shield": {
+    "criteria": {
+      "has_skyjade_gemstone": "2025-05-06 21:41:39 +0800"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/decorations/skyjade_block": {
+    "criteria": {
+      "has_skyjade": "2025-05-06 21:41:39 +0800"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/decorations/skyjade_from_skyjade_block": {
+    "criteria": {
+      "has_skyjade": "2025-05-06 21:41:39 +0800"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/combat/skyjade_chestplate": {
+    "criteria": {
+      "has_skyjade": "2025-05-06 21:41:39 +0800"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/combat/skyjade_gloves": {
+    "criteria": {
+      "has_skyjade": "2025-05-06 21:41:39 +0800"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/tools/skyjade_pickaxe": {
+    "criteria": {
+      "has_skyjade": "2025-05-06 21:41:39 +0800"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/combat/skyjade_ring": {
+    "criteria": {
+      "has_skyjade": "2025-05-06 21:41:39 +0800"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/combat/skyjade_sword": {
+    "criteria": {
+      "has_skyjade": "2025-05-06 21:41:39 +0800"
+    },
+    "done": true
+  },
+  "delightful:recipes/knives/skyjade_knife": {
+    "criteria": {
+      "has_gems/skyjade": "2025-05-06 21:41:39 +0800"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/misc/combiner": {
+    "criteria": {
+      "has_skyjade": "2025-05-06 21:41:39 +0800"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/decorations/skyjade_nugget": {
+    "criteria": {
+      "has_skyjade": "2025-05-06 21:41:39 +0800"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/tools/skyjade_shovel": {
+    "criteria": {
+      "has_skyjade": "2025-05-06 21:41:39 +0800"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/tools/skyjade_axe": {
+    "criteria": {
+      "has_skyjade": "2025-05-06 21:41:39 +0800"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/tools/skyjade_hoe": {
+    "criteria": {
+      "has_skyjade": "2025-05-06 21:41:39 +0800"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/combat/skyjade_helmet": {
+    "criteria": {
+      "has_skyjade": "2025-05-06 21:41:39 +0800"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/combat/skyjade_leggings": {
+    "criteria": {
+      "has_skyjade": "2025-05-06 21:41:39 +0800"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/blue_gummy_swet": {
+    "criteria": {
+      "has_swet_ball": "2025-05-06 21:42:59 +0800"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/blue_swet_jelly": {
+    "criteria": {
+      "has_swet_ball": "2025-05-06 21:42:59 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2025-05-06 21:43:31 +0800"
+    },
+    "done": true
+  },
+  "galosphere:recipes/misc/silver_ingot_from_nuggets": {
+    "criteria": {
+      "has_silver_nugget": "2025-05-06 21:44:27 +0800"
+    },
+    "done": true
+  },
+  "illagerinvasion:recipes/misc/platinum_sheet": {
+    "criteria": {
+      "has_platinum_chunk": "2025-05-06 21:44:28 +0800"
+    },
+    "done": true
+  },
+  "sereneseasons:recipes/tools/calendar": {
+    "criteria": {
+      "has_clock": "2025-05-06 22:03:34 +0800"
+    },
+    "done": true
+  },
+  "sereneseasons:recipes/redstone/season_sensor": {
+    "criteria": {
+      "has_calendar": "2025-05-06 22:03:42 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2025-05-06 22:05:13 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/skyroot_cartography_table": {
+    "criteria": {
+      "has_paper": "2025-05-06 22:08:09 +0800"
+    },
+    "done": true
+  },
+  "hearth_and_home:recipes/shoji": {
+    "criteria": {
+      "has_item": "2025-05-06 22:08:09 +0800"
+    },
+    "done": true
+  },
+  "twigs:recipes/paper_lanterns/paper_lantern": {
+    "criteria": {
+      "has_item": "2025-05-06 22:08:09 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2025-05-06 22:08:09 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2025-05-06 22:08:09 +0800"
+    },
+    "done": true
+  },
+  "hearth_and_home:recipes/paper_lanterns": {
+    "criteria": {
+      "has_item": "2025-05-06 22:08:09 +0800"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/present": {
+    "criteria": {
+      "has_paper": "2025-05-06 22:08:09 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_poppy": "2025-05-06 22:41:35 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/iron_axe_repairing": {
+    "criteria": {
+      "has_iron_axe": "2025-05-06 22:26:27 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/misc/paper_from_tree_bark": {
+    "criteria": {
+      "has_tree_bark": "2025-05-06 22:26:36 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:main/use_cutting_board": {
+    "criteria": {
+      "cutting_board": "2025-05-06 22:26:36 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/wood_bowl": {
+    "criteria": {
+      "has_wood_bowl": "2025-05-06 22:47:06 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/wood_plate": {
+    "criteria": {
+      "has_wood_plate": "2025-05-06 22:47:06 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-05-06 22:26:36 +0800"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/oak_shutter": {
+    "criteria": {
+      "has_slab": "2025-05-06 22:47:06 +0800"
+    },
+    "done": true
+  },
+  "decorative_blocks:recipes/building_blocks/oak_beam": {
+    "criteria": {
+      "has_stripped_log": "2025-05-06 22:26:36 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_cornflower": "2025-05-06 22:53:08 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_oak_wood": {
+    "criteria": {
+      "has_log": "2025-05-06 22:26:36 +0800"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/wood_cup": {
+    "criteria": {
+      "has_wood_cup": "2025-05-06 22:47:06 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2025-05-06 22:47:06 +0800"
+    },
+    "done": true
+  },
+  "twigs:recipes/tables/oak_table_slab": {
+    "criteria": {
+      "has_bamboo": "2025-05-06 22:47:06 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:main/place_organic_compost": {
+    "criteria": {
+      "place_organic_compost": "2025-05-06 22:27:11 +0800"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/item_shelf": {
+    "criteria": {
+      "minecraft:wooden_slabs": "2025-05-06 22:47:06 +0800"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/oak_bench": {
+    "criteria": {
+      "has_slab": "2025-05-06 22:47:06 +0800"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/oak_flower_box": {
+    "criteria": {
+      "has_slab": "2025-05-06 22:47:06 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/wood/oak_banister": {
+    "criteria": {
+      "has_item": "2025-05-06 22:47:06 +0800"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/building_blocks/trough": {
+    "criteria": {
+      "has_item": "2025-05-06 22:47:06 +0800"
     },
     "done": true
   },
