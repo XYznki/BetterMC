@@ -4,5 +4,17 @@
     "name": "Zephyr",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "11694118-868b-3dd1-b781-9286e105986e",
+    "name": "loklokk",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "8679e557-03c9-3c49-9442-217618d64e66",
+    "name": "Steady",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]
