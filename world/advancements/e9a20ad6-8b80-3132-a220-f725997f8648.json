@@ -11982,16 +11982,119 @@
     },
     "done": true
   },
-  "aether:recipes/combat/gravitite_chestplate": {
+  "minecraft:recipes/redstone/slime_block": {
     "criteria": {
-      "has_enchanted_gravitite": "2025-05-12 22:16:18 +0800"
+      "has_slime_ball": "2025-05-12 21:01:45 +0800"
     },
     "done": true
   },
-  "twilightforest:progress_troll": {
+  "minecraft:recipes/tools/lead": {
     "criteria": {
-      "previous_progression": "2025-05-12 21:48:51 +0800",
-      "lamp": "2025-05-12 22:03:37 +0800"
+      "has_slime_ball": "2025-05-12 21:01:45 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2025-05-12 21:01:45 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/food/food/smelted_meef": {
+    "criteria": {
+      "has_food": "2025-05-12 21:02:19 +0800"
+    },
+    "done": true
+  },
+  "twilightdelight:recipes/food/meef_wrap": {
+    "criteria": {
+      "has_raw_meef": "2025-05-12 21:02:19 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/food/food/campfired_meef": {
+    "criteria": {
+      "has_food": "2025-05-12 21:02:19 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/food/food/smoked_meef": {
+    "criteria": {
+      "has_food": "2025-05-12 21:02:19 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/maze_stone/mossy_mazestone": {
+    "criteria": {
+      "has_item": "2025-05-12 21:06:56 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/maze_stone/smelted_maze_stone_cracked": {
+    "criteria": {
+      "has_item": "2025-05-12 21:06:56 +0800"
+    },
+    "done": true
+  },
+  "twilightdelight:recipes/food/chocolate_wafer": {
+    "criteria": {
+      "has_maze_wafer": "2025-05-12 21:07:36 +0800"
+    },
+    "done": true
+  },
+  "umbral_skies:recipes/combat/steeleaf_gloves": {
+    "criteria": {
+      "has_item": "2025-05-12 21:08:59 +0800"
+    },
+    "done": true
+  },
+  "twilightdelight:recipes/misc/steeleaf_knife": {
+    "criteria": {
+      "has_steeleaf_ingot": "2025-05-12 21:08:59 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/compressed_blocks/steeleaf_block": {
+    "criteria": {
+      "has_item": "2025-05-12 21:08:59 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/minoshroom_banner_pattern": {
+    "criteria": {
+      "has_trophy": "2025-05-12 21:09:12 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/tools/charm_of_keeping_2": {
+    "criteria": {
+      "has_item": "2025-05-12 21:11:39 +0800"
+    },
+    "done": true
+  },
+  "betternether:recipes/misc/wall_red_brown": {
+    "criteria": {
+      "has_red_mushroom": "2025-05-12 21:11:50 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:twilight_dinner": {
+    "criteria": {
+      "raw_meef": "2025-05-12 21:33:51 +0800",
+      "meef_stroganoff": "2025-05-12 21:12:45 +0800"
+    },
+    "done": false
+  },
+  "twilightforest:progress_hydra": {
+    "criteria": {
+      "trophy": "2025-05-12 21:18:34 +0800",
+      "stroganoff": "2025-05-12 21:12:45 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2025-05-12 21:15:36 +0800"
     },
     "done": true
   },
@@ -12003,15 +12106,83 @@
     },
     "done": true
   },
+  "twilightforest:recipes/misc/hydra_banner_pattern": {
+    "criteria": {
+      "has_trophy": "2025-05-12 21:18:34 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/combat/equipment/zombie_scepter": {
+    "criteria": {
+      "has_item": "2025-05-12 21:18:41 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:progress_knights": {
+    "criteria": {
+      "previous_progression": "2025-05-12 21:23:13 +0800",
+      "was_in_fight": "2025-05-12 21:29:06 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/material/armor_shard_cluster": {
+    "criteria": {
+      "has_item": "2025-05-12 21:24:44 +0800"
+    },
+    "done": true
+  },
+  "netherexp:nether/overkill": {
+    "criteria": {
+      "overkill": "2025-05-12 21:28:57 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:progress_ur_ghast": {
+    "criteria": {
+      "previous_progression": "2025-05-12 21:29:06 +0800",
+      "was_in_fight": "2025-05-12 21:42:11 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/knight_phantom_banner_pattern": {
+    "criteria": {
+      "has_trophy": "2025-05-12 21:29:13 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/uncrafting_table": {
+    "criteria": {
+      "has_uncrafting_table": "2025-05-12 21:29:58 +0800"
+    },
+    "done": true
+  },
   "twilightforest:recipes/building_blocks/smelted_cracked_underbrick": {
     "criteria": {
       "has_item": "2025-05-12 21:33:09 +0800"
     },
     "done": true
   },
-  "aether_redux:recipes/building_blocks/sentrite_brick_from_base_block_slab_stonecutting": {
+  "twilightforest:recipes/building_blocks/mossy_underbrick": {
     "criteria": {
-      "has_sentrite": "2025-05-12 22:18:49 +0800"
+      "has_item": "2025-05-12 21:33:09 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/wood/dark_wood": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:25 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/wood/dark_planks": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:25 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/q/twilightforest/dark_leaf_carpet": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:27 +0800"
     },
     "done": true
   },
@@ -12027,24 +12198,6 @@
     },
     "done": true
   },
-  "aether:recipes/decorations/gravitite_jukebox": {
-    "criteria": {
-      "has_enchanted_gravitite": "2025-05-12 22:16:18 +0800"
-    },
-    "done": true
-  },
-  "aether_redux:recipes/building_blocks/sentrite_slab": {
-    "criteria": {
-      "has_sentrite": "2025-05-12 22:18:49 +0800"
-    },
-    "done": true
-  },
-  "twilightdelight:recipes/food/aurora_pie": {
-    "criteria": {
-      "has_aurora_block": "2025-05-12 21:46:35 +0800"
-    },
-    "done": true
-  },
   "everycomp:recipes/decorations/hc/twilightforest/dark_corner_trim": {
     "criteria": {
       "has_item": "2025-05-12 21:35:34 +0800"
@@ -12057,45 +12210,457 @@
     },
     "done": true
   },
-  "twilightforest:recipes/misc/minoshroom_banner_pattern": {
-    "criteria": {
-      "has_trophy": "2025-05-12 21:09:12 +0800"
-    },
-    "done": true
-  },
-  "aether_redux:recipes/building_blocks/sentrite_wall_stonecutting": {
-    "criteria": {
-      "has_sentrite": "2025-05-12 22:18:49 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/slime_block": {
-    "criteria": {
-      "has_slime_ball": "2025-05-12 21:01:45 +0800"
-    },
-    "done": true
-  },
-  "deep_aether:recipes/combat/gravitite_ring": {
-    "criteria": {
-      "has_enchanted_gravitite": "2025-05-12 22:16:18 +0800"
-    },
-    "done": true
-  },
   "everycomp:recipes/decorations/af/twilightforest/dark_flower_box": {
     "criteria": {
       "has_item": "2025-05-12 21:35:34 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/tools/lead": {
-    "criteria": {
-      "has_slime_ball": "2025-05-12 21:01:45 +0800"
-    },
-    "done": true
-  },
   "everycomp:recipes/decorations/hc/twilightforest/dark_side_table": {
     "criteria": {
       "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hc/twilightforest/dark_nightstand": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hnhome/twilightforest/dark_lattice": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/building_blocks/db/twilightforest/dark_support": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/fd/twilightforest/dark_cabinet": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/q/twilightforest/dark_bookshelf": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/redstone/wood/dark_trapdoor": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/af/twilightforest/dark_chair": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/q/twilightforest/dark_ladder": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/vp/twilightforest/dark_horticulturist_table": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hc/twilightforest/dark_counter": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/q/twilightforest/stripped_dark_post": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/af/twilightforest/dark_shelf": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/building_blocks/db/twilightforest/dark_palisade": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/redstone/wood/dark_plate": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "suppsquared:recipes/decorations/twilightforest/item_shelf_dark": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/abnbl/twilightforest/large_dark_boat": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/wood/dark_chest": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/bp/twilightforest/dark_backpack_shelf": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hc/twilightforest/dark_shelf": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/building_blocks/db/twilightforest/dark_seat": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/wood/dark_stairs": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/wood/dark_fence": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/tw/twilightforest/dark_table": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/wood/dark_slab": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hnhome/twilightforest/dark_trim": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/redstone/wood/dark_button": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/redstone/wood/dark_door": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/af/twilightforest/dark_drawer": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/af/twilightforest/dark_table": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hc/twilightforest/dark_bench": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/q/twilightforest/hollow_dark_log": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hnhome/twilightforest/dark_sanded_wood": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/q/twilightforest/vertical_dark_planks": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/wood/dark_sign": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hc/twilightforest/dark_dining_bench": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hc/twilightforest/dark_desk": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hc/twilightforest/dark_cupboard": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/af/twilightforest/dark_bench": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hc/twilightforest/dark_table": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/redstone/wood/dark_gate": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hc/twilightforest/dark_drawer": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/abnbl/twilightforest/dark_furnace_boat": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/decorations/twilightforest/sign_post_dark": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/af/twilightforest/dark_shutter": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/faf/twilightforest/dark_beehive": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/q/twilightforest/dark_post": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hc/twilightforest/dark_pillar_trim": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/building_blocks/db/twilightforest/dark_beam": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hnhome/twilightforest/dark_parquet": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hnhome/twilightforest/dark_trim_from_dark_vertical_trim": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hc/twilightforest/dark_fancy_bed": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "everycomp:recipes/decorations/hnhome/twilightforest/dark_vertical_trim": {
+    "criteria": {
+      "has_item": "2025-05-12 21:35:34 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:ghast_trap": {
+    "criteria": {
+      "activate_ghast_trap": "2025-05-12 21:40:12 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/ur_ghast_banner_pattern": {
+    "criteria": {
+      "has_trophy": "2025-05-12 21:42:38 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/tools/charm_of_keeping_3": {
+    "criteria": {
+      "has_item": "2025-05-12 21:42:55 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/compressed_blocks/arctic_block": {
+    "criteria": {
+      "has_item": "2025-05-12 21:45:04 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/combat/equipment/arctic_leggings": {
+    "criteria": {
+      "has_item": "2025-05-12 21:45:04 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/combat/equipment/arctic_helmet": {
+    "criteria": {
+      "has_item": "2025-05-12 21:45:04 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/combat/equipment/arctic_chestplate": {
+    "criteria": {
+      "has_item": "2025-05-12 21:45:04 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/combat/equipment/arctic_boots": {
+    "criteria": {
+      "has_item": "2025-05-12 21:45:04 +0800"
+    },
+    "done": true
+  },
+  "umbral_skies:recipes/combat/arctic_gloves": {
+    "criteria": {
+      "has_item": "2025-05-12 21:45:04 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:progress_glacier": {
+    "criteria": {
+      "previous_progression": "2025-05-12 21:45:05 +0800",
+      "was_in_fight": "2025-05-12 21:48:51 +0800"
+    },
+    "done": true
+  },
+  "twilightdelight:recipes/food/aurora_pie": {
+    "criteria": {
+      "has_aurora_block": "2025-05-12 21:46:35 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/wood/aurora_slab_slab": {
+    "criteria": {
+      "has_item": "2025-05-12 21:46:35 +0800"
+    },
+    "done": true
+  },
+  "twilightdelight:recipes/food/rainbow_ice_cream": {
+    "criteria": {
+      "has_aurora_block": "2025-05-12 21:46:35 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/netherite_pickaxe_repairing": {
+    "criteria": {
+      "has_netherite_pickaxe": "2025-05-12 21:46:53 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:progress_troll": {
+    "criteria": {
+      "previous_progression": "2025-05-12 21:48:51 +0800",
+      "lamp": "2025-05-12 22:03:37 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:giants": {
+    "criteria": {
+      "pickaxe": "2025-05-12 22:03:34 +0800",
+      "giant": "2025-05-12 21:56:12 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:beanstalk": {
+    "criteria": {
+      "beans": "2025-05-12 22:03:34 +0800"
+    },
+    "done": false
+  },
+  "twilightforest:progression_end": {
+    "criteria": {
+      "previous_progression": "2025-05-12 22:03:37 +0800",
+      "plateau": "2025-05-12 22:05:40 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/gravitite_chestplate": {
+    "criteria": {
+      "has_enchanted_gravitite": "2025-05-12 22:16:18 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/gravitite_jukebox": {
+    "criteria": {
+      "has_enchanted_gravitite": "2025-05-12 22:16:18 +0800"
+    },
+    "done": true
+  },
+  "deep_aether:recipes/combat/gravitite_ring": {
+    "criteria": {
+      "has_enchanted_gravitite": "2025-05-12 22:16:18 +0800"
     },
     "done": true
   },
@@ -12123,51 +12688,9 @@
     },
     "done": true
   },
-  "everycomp:recipes/decorations/hc/twilightforest/dark_nightstand": {
-    "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
-    },
-    "done": true
-  },
-  "everycomp:recipes/decorations/hnhome/twilightforest/dark_lattice": {
-    "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
-    },
-    "done": true
-  },
-  "everycomp:recipes/building_blocks/db/twilightforest/dark_support": {
-    "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
-    },
-    "done": true
-  },
-  "aether_redux:recipes/misc/refine_sentrite_blast": {
-    "criteria": {
-      "has_sentrite": "2025-05-12 22:18:49 +0800"
-    },
-    "done": true
-  },
-  "aether_redux:recipes/combat/ring_of_wisdom": {
-    "criteria": {
-      "has_enchanted_ring": "2025-05-12 22:17:26 +0800"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/building_blocks/compressed_blocks/arctic_block": {
-    "criteria": {
-      "has_item": "2025-05-12 21:45:04 +0800"
-    },
-    "done": true
-  },
   "aether:recipes/tools/gravitite_shovel": {
     "criteria": {
       "has_enchanted_gravitite": "2025-05-12 22:16:18 +0800"
-    },
-    "done": true
-  },
-  "everycomp:recipes/decorations/fd/twilightforest/dark_cabinet": {
-    "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
     },
     "done": true
   },
@@ -12177,131 +12700,9 @@
     },
     "done": true
   },
-  "twilightforest:recipes/combat/equipment/arctic_leggings": {
-    "criteria": {
-      "has_item": "2025-05-12 21:45:04 +0800"
-    },
-    "done": true
-  },
-  "twilightforest:twilight_dinner": {
-    "criteria": {
-      "raw_meef": "2025-05-12 21:33:51 +0800",
-      "meef_stroganoff": "2025-05-12 21:12:45 +0800"
-    },
-    "done": false
-  },
-  "everycomp:recipes/decorations/q/twilightforest/dark_bookshelf": {
-    "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/food/food/smelted_meef": {
-    "criteria": {
-      "has_food": "2025-05-12 21:02:19 +0800"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/redstone/wood/dark_trapdoor": {
-    "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
-    },
-    "done": true
-  },
-  "twilightforest:progress_glacier": {
-    "criteria": {
-      "previous_progression": "2025-05-12 21:45:05 +0800",
-      "was_in_fight": "2025-05-12 21:48:51 +0800"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/misc/hydra_banner_pattern": {
-    "criteria": {
-      "has_trophy": "2025-05-12 21:18:34 +0800"
-    },
-    "done": true
-  },
-  "everycomp:recipes/decorations/af/twilightforest/dark_chair": {
-    "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
-    },
-    "done": true
-  },
-  "everycomp:recipes/decorations/q/twilightforest/dark_ladder": {
-    "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
-    },
-    "done": true
-  },
-  "everycomp:recipes/decorations/vp/twilightforest/dark_horticulturist_table": {
-    "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/building_blocks/maze_stone/mossy_mazestone": {
-    "criteria": {
-      "has_item": "2025-05-12 21:06:56 +0800"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/building_blocks/wood/aurora_slab_slab": {
-    "criteria": {
-      "has_item": "2025-05-12 21:46:35 +0800"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/building_blocks/wood/dark_wood": {
-    "criteria": {
-      "has_item": "2025-05-12 21:35:25 +0800"
-    },
-    "done": true
-  },
-  "everycomp:recipes/decorations/hc/twilightforest/dark_counter": {
-    "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
-    },
-    "done": true
-  },
-  "twilightdelight:recipes/food/meef_wrap": {
-    "criteria": {
-      "has_raw_meef": "2025-05-12 21:02:19 +0800"
-    },
-    "done": true
-  },
-  "twilightdelight:recipes/food/rainbow_ice_cream": {
-    "criteria": {
-      "has_aurora_block": "2025-05-12 21:46:35 +0800"
-    },
-    "done": true
-  },
   "aether:recipes/decorations/skyroot_gravitite_jukebox": {
     "criteria": {
       "has_enchanted_gravitite": "2025-05-12 22:16:18 +0800"
-    },
-    "done": true
-  },
-  "everycomp:recipes/decorations/q/twilightforest/stripped_dark_post": {
-    "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
-    },
-    "done": true
-  },
-  "everycomp:recipes/decorations/af/twilightforest/dark_shelf": {
-    "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
-    },
-    "done": true
-  },
-  "umbral_skies:recipes/combat/steeleaf_gloves": {
-    "criteria": {
-      "has_item": "2025-05-12 21:08:59 +0800"
-    },
-    "done": true
-  },
-  "everycomp:recipes/building_blocks/db/twilightforest/dark_palisade": {
-    "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
     },
     "done": true
   },
@@ -12311,320 +12712,15 @@
     },
     "done": true
   },
-  "aether_redux:recipes/misc/refine_sentrite_smelt": {
-    "criteria": {
-      "has_sentrite": "2025-05-12 22:18:49 +0800"
-    },
-    "done": true
-  },
-  "betternether:recipes/misc/wall_red_brown": {
-    "criteria": {
-      "has_red_mushroom": "2025-05-12 21:11:50 +0800"
-    },
-    "done": true
-  },
-  "twilightforest:progress_hydra": {
-    "criteria": {
-      "trophy": "2025-05-12 21:18:34 +0800",
-      "stroganoff": "2025-05-12 21:12:45 +0800"
-    },
-    "done": true
-  },
-  "aether_redux:recipes/building_blocks/sentrite_wall": {
-    "criteria": {
-      "has_sentrite": "2025-05-12 22:18:49 +0800"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/redstone/wood/dark_plate": {
-    "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
-    },
-    "done": true
-  },
-  "aether:recipes/tools/gravitite_axe_repairing": {
-    "criteria": {
-      "has_gravitite_axe": "2025-05-12 22:16:20 +0800"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/diamond_gloves_repairing": {
-    "criteria": {
-      "has_diamond_gloves": "2025-05-12 22:28:59 +0800"
-    },
-    "done": true
-  },
-  "twilightforest:progress_ur_ghast": {
-    "criteria": {
-      "previous_progression": "2025-05-12 21:29:06 +0800",
-      "was_in_fight": "2025-05-12 21:42:11 +0800"
-    },
-    "done": true
-  },
-  "suppsquared:recipes/decorations/twilightforest/item_shelf_dark": {
-    "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
-    },
-    "done": true
-  },
-  "everycomp:recipes/decorations/abnbl/twilightforest/large_dark_boat": {
-    "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
-    },
-    "done": true
-  },
-  "twilightforest:giants": {
-    "criteria": {
-      "pickaxe": "2025-05-12 22:03:34 +0800",
-      "giant": "2025-05-12 21:56:12 +0800"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/decorations/wood/dark_chest": {
-    "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
-    },
-    "done": true
-  },
-  "everycomp:recipes/decorations/bp/twilightforest/dark_backpack_shelf": {
-    "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/combat/equipment/arctic_helmet": {
-    "criteria": {
-      "has_item": "2025-05-12 21:45:04 +0800"
-    },
-    "done": true
-  },
-  "aether_redux:recipes/building_blocks/sentrite_brick_wall_from_base_block_stonecutting": {
-    "criteria": {
-      "has_sentrite": "2025-05-12 22:18:49 +0800"
-    },
-    "done": true
-  },
-  "everycomp:recipes/decorations/hc/twilightforest/dark_shelf": {
-    "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
-    },
-    "done": true
-  },
-  "everycomp:recipes/building_blocks/db/twilightforest/dark_seat": {
-    "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/tools/charm_of_keeping_2": {
-    "criteria": {
-      "has_item": "2025-05-12 21:11:39 +0800"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/tools/charm_of_keeping_3": {
-    "criteria": {
-      "has_item": "2025-05-12 21:42:55 +0800"
-    },
-    "done": true
-  },
-  "twilightforest:progression_end": {
-    "criteria": {
-      "previous_progression": "2025-05-12 22:03:37 +0800",
-      "plateau": "2025-05-12 22:05:40 +0800"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/building_blocks/maze_stone/smelted_maze_stone_cracked": {
-    "criteria": {
-      "has_item": "2025-05-12 21:06:56 +0800"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/misc/ur_ghast_banner_pattern": {
-    "criteria": {
-      "has_trophy": "2025-05-12 21:42:38 +0800"
-    },
-    "done": true
-  },
   "aether:recipes/combat/gravitite_boots": {
     "criteria": {
       "has_enchanted_gravitite": "2025-05-12 22:16:18 +0800"
     },
     "done": true
   },
-  "twilightforest:recipes/building_blocks/wood/dark_stairs": {
-    "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
-    },
-    "done": true
-  },
   "aether:recipes/combat/gravitite_leggings": {
     "criteria": {
       "has_enchanted_gravitite": "2025-05-12 22:16:18 +0800"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/decorations/uncrafting_table": {
-    "criteria": {
-      "has_uncrafting_table": "2025-05-12 21:29:58 +0800"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/decorations/wood/dark_fence": {
-    "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
-    },
-    "done": true
-  },
-  "minecraft:adventure/shoot_arrow": {
-    "criteria": {
-      "shot_arrow": "2025-05-12 21:15:36 +0800"
-    },
-    "done": true
-  },
-  "everycomp:recipes/decorations/tw/twilightforest/dark_table": {
-    "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/building_blocks/wood/dark_slab": {
-    "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
-    },
-    "done": true
-  },
-  "twilightdelight:recipes/misc/steeleaf_knife": {
-    "criteria": {
-      "has_steeleaf_ingot": "2025-05-12 21:08:59 +0800"
-    },
-    "done": true
-  },
-  "everycomp:recipes/decorations/hnhome/twilightforest/dark_trim": {
-    "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
-    },
-    "done": true
-  },
-  "twilightforest:progress_knights": {
-    "criteria": {
-      "previous_progression": "2025-05-12 21:23:13 +0800",
-      "was_in_fight": "2025-05-12 21:29:06 +0800"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/redstone/wood/dark_button": {
-    "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
-    },
-    "done": true
-  },
-  "aether:recipes/tools/netherite_pickaxe_repairing": {
-    "criteria": {
-      "has_netherite_pickaxe": "2025-05-12 21:46:53 +0800"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/redstone/wood/dark_door": {
-    "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
-    },
-    "done": true
-  },
-  "everycomp:recipes/decorations/af/twilightforest/dark_drawer": {
-    "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/combat/equipment/arctic_chestplate": {
-    "criteria": {
-      "has_item": "2025-05-12 21:45:04 +0800"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/building_blocks/mossy_underbrick": {
-    "criteria": {
-      "has_item": "2025-05-12 21:33:09 +0800"
-    },
-    "done": true
-  },
-  "everycomp:recipes/decorations/af/twilightforest/dark_table": {
-    "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
-    },
-    "done": true
-  },
-  "everycomp:recipes/decorations/hc/twilightforest/dark_bench": {
-    "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
-    "criteria": {
-      "has_netherite_upgrade_smithing_template": "2025-05-12 22:27:40 +0800"
-    },
-    "done": true
-  },
-  "aether_redux:recipes/building_blocks/sentrite_slab_stonecutting": {
-    "criteria": {
-      "has_sentrite": "2025-05-12 22:18:49 +0800"
-    },
-    "done": true
-  },
-  "everycomp:recipes/decorations/q/twilightforest/hollow_dark_log": {
-    "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
-    },
-    "done": true
-  },
-  "aether_redux:recipes/building_blocks/sentrite_stairs_stonecutting": {
-    "criteria": {
-      "has_sentrite": "2025-05-12 22:18:49 +0800"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/combat/equipment/zombie_scepter": {
-    "criteria": {
-      "has_item": "2025-05-12 21:18:41 +0800"
-    },
-    "done": true
-  },
-  "everycomp:recipes/decorations/hnhome/twilightforest/dark_sanded_wood": {
-    "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
-    },
-    "done": true
-  },
-  "everycomp:recipes/decorations/q/twilightforest/vertical_dark_planks": {
-    "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/food/food/campfired_meef": {
-    "criteria": {
-      "has_food": "2025-05-12 21:02:19 +0800"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/decorations/wood/dark_sign": {
-    "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
-    },
-    "done": true
-  },
-  "aether_redux:recipes/building_blocks/sentrite_brick_from_base_block_stairs_stonecutting": {
-    "criteria": {
-      "has_sentrite": "2025-05-12 22:18:49 +0800"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/combat/equipment/arctic_boots": {
-    "criteria": {
-      "has_item": "2025-05-12 21:45:04 +0800"
     },
     "done": true
   },
@@ -12646,141 +12742,9 @@
     },
     "done": true
   },
-  "everycomp:recipes/decorations/hc/twilightforest/dark_dining_bench": {
-    "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
-    },
-    "done": true
-  },
-  "twilightdelight:recipes/food/chocolate_wafer": {
-    "criteria": {
-      "has_maze_wafer": "2025-05-12 21:07:36 +0800"
-    },
-    "done": true
-  },
-  "everycomp:recipes/decorations/hc/twilightforest/dark_desk": {
-    "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
-    },
-    "done": true
-  },
-  "aether_redux:recipes/building_blocks/sentrite_bricks": {
-    "criteria": {
-      "has_sentrite": "2025-05-12 22:18:49 +0800"
-    },
-    "done": true
-  },
-  "everycomp:recipes/decorations/hc/twilightforest/dark_cupboard": {
-    "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
-    },
-    "done": true
-  },
-  "twilightforest:beanstalk": {
-    "criteria": {
-      "beans": "2025-05-12 22:03:34 +0800"
-    },
-    "done": false
-  },
-  "everycomp:recipes/decorations/af/twilightforest/dark_bench": {
-    "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
-    },
-    "done": true
-  },
-  "everycomp:recipes/decorations/hc/twilightforest/dark_table": {
-    "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
-    },
-    "done": true
-  },
   "ancient_aether:recipes/misc/enchanting_table_from_gravitite": {
     "criteria": {
       "has_enchanted_gravitite": "2025-05-12 22:16:18 +0800"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/redstone/wood/dark_gate": {
-    "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
-    },
-    "done": true
-  },
-  "aether_redux:recipes/building_blocks/carved_stone": {
-    "criteria": {
-      "has_sentrite": "2025-05-12 22:18:49 +0800"
-    },
-    "done": true
-  },
-  "everycomp:recipes/decorations/hc/twilightforest/dark_drawer": {
-    "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
-    },
-    "done": true
-  },
-  "everycomp:recipes/decorations/abnbl/twilightforest/dark_furnace_boat": {
-    "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/decorations/twilightforest/sign_post_dark": {
-    "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/food/food/smoked_meef": {
-    "criteria": {
-      "has_food": "2025-05-12 21:02:19 +0800"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/misc/knight_phantom_banner_pattern": {
-    "criteria": {
-      "has_trophy": "2025-05-12 21:29:13 +0800"
-    },
-    "done": true
-  },
-  "everycomp:recipes/decorations/af/twilightforest/dark_shutter": {
-    "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
-    },
-    "done": true
-  },
-  "umbral_skies:recipes/combat/arctic_gloves": {
-    "criteria": {
-      "has_item": "2025-05-12 21:45:04 +0800"
-    },
-    "done": true
-  },
-  "everycomp:recipes/decorations/faf/twilightforest/dark_beehive": {
-    "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
-    },
-    "done": true
-  },
-  "everycomp:recipes/decorations/q/twilightforest/dark_post": {
-    "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
-    },
-    "done": true
-  },
-  "everycomp:recipes/decorations/hc/twilightforest/dark_pillar_trim": {
-    "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
-    },
-    "done": true
-  },
-  "aether_redux:recipes/building_blocks/sentrite_stairs": {
-    "criteria": {
-      "has_sentrite": "2025-05-12 22:18:49 +0800"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/misc/material/armor_shard_cluster": {
-    "criteria": {
-      "has_item": "2025-05-12 21:24:44 +0800"
     },
     "done": true
   },
@@ -12790,69 +12754,166 @@
     },
     "done": true
   },
-  "everycomp:recipes/building_blocks/db/twilightforest/dark_beam": {
+  "aether:recipes/tools/gravitite_axe_repairing": {
     "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
+      "has_gravitite_axe": "2025-05-12 22:16:20 +0800"
     },
     "done": true
   },
-  "everycomp:recipes/decorations/hnhome/twilightforest/dark_parquet": {
+  "aether_redux:recipes/combat/ring_of_wisdom": {
     "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
+      "has_enchanted_ring": "2025-05-12 22:17:26 +0800"
     },
     "done": true
   },
-  "everycomp:recipes/decorations/hnhome/twilightforest/dark_trim_from_dark_vertical_trim": {
+  "aether_redux:recipes/building_blocks/sentrite_brick_from_base_block_slab_stonecutting": {
     "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
+      "has_sentrite": "2025-05-12 22:18:49 +0800"
     },
     "done": true
   },
-  "twilightforest:recipes/building_blocks/compressed_blocks/steeleaf_block": {
+  "aether_redux:recipes/building_blocks/sentrite_slab": {
     "criteria": {
-      "has_item": "2025-05-12 21:08:59 +0800"
+      "has_sentrite": "2025-05-12 22:18:49 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/sticky_piston": {
+  "aether_redux:recipes/building_blocks/sentrite_wall_stonecutting": {
     "criteria": {
-      "has_slime_ball": "2025-05-12 21:01:45 +0800"
+      "has_sentrite": "2025-05-12 22:18:49 +0800"
     },
     "done": true
   },
-  "netherexp:nether/overkill": {
+  "aether_redux:recipes/misc/refine_sentrite_blast": {
     "criteria": {
-      "overkill": "2025-05-12 21:28:57 +0800"
+      "has_sentrite": "2025-05-12 22:18:49 +0800"
     },
     "done": true
   },
-  "twilightforest:recipes/building_blocks/wood/dark_planks": {
+  "aether_redux:recipes/misc/refine_sentrite_smelt": {
     "criteria": {
-      "has_item": "2025-05-12 21:35:25 +0800"
+      "has_sentrite": "2025-05-12 22:18:49 +0800"
     },
     "done": true
   },
-  "everycomp:recipes/decorations/q/twilightforest/dark_leaf_carpet": {
+  "aether_redux:recipes/building_blocks/sentrite_wall": {
     "criteria": {
-      "has_item": "2025-05-12 21:35:27 +0800"
+      "has_sentrite": "2025-05-12 22:18:49 +0800"
     },
     "done": true
   },
-  "twilightforest:ghast_trap": {
+  "aether_redux:recipes/building_blocks/sentrite_brick_wall_from_base_block_stonecutting": {
     "criteria": {
-      "activate_ghast_trap": "2025-05-12 21:40:12 +0800"
+      "has_sentrite": "2025-05-12 22:18:49 +0800"
     },
     "done": true
   },
-  "everycomp:recipes/decorations/hc/twilightforest/dark_fancy_bed": {
+  "aether_redux:recipes/building_blocks/sentrite_slab_stonecutting": {
     "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
+      "has_sentrite": "2025-05-12 22:18:49 +0800"
     },
     "done": true
   },
-  "everycomp:recipes/decorations/hnhome/twilightforest/dark_vertical_trim": {
+  "aether_redux:recipes/building_blocks/sentrite_stairs_stonecutting": {
     "criteria": {
-      "has_item": "2025-05-12 21:35:34 +0800"
+      "has_sentrite": "2025-05-12 22:18:49 +0800"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/building_blocks/sentrite_brick_from_base_block_stairs_stonecutting": {
+    "criteria": {
+      "has_sentrite": "2025-05-12 22:18:49 +0800"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/building_blocks/sentrite_bricks": {
+    "criteria": {
+      "has_sentrite": "2025-05-12 22:18:49 +0800"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/building_blocks/carved_stone": {
+    "criteria": {
+      "has_sentrite": "2025-05-12 22:18:49 +0800"
+    },
+    "done": true
+  },
+  "aether_redux:recipes/building_blocks/sentrite_stairs": {
+    "criteria": {
+      "has_sentrite": "2025-05-12 22:18:49 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
+    "criteria": {
+      "has_netherite_upgrade_smithing_template": "2025-05-12 22:27:40 +0800"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/diamond_gloves_repairing": {
+    "criteria": {
+      "has_diamond_gloves": "2025-05-12 22:28:59 +0800"
+    },
+    "done": true
+  },
+  "blue_skies:root": {
+    "criteria": {
+      "enter_everbright": "2025-05-13 21:57:12 +0800"
+    },
+    "done": true
+  },
+  "blue_skies:everbright/enter": {
+    "criteria": {
+      "enter_everbright": "2025-05-13 21:57:12 +0800"
+    },
+    "done": true
+  },
+  "blue_skies:thinking_with_portals": {
+    "criteria": {
+      "enter_everbright": "2025-05-13 21:57:12 +0800",
+      "enter_everdawn": "2025-05-13 21:57:44 +0800"
+    },
+    "done": true
+  },
+  "blue_skies:everdawn/enter": {
+    "criteria": {
+      "enter_everdawn": "2025-05-13 21:57:44 +0800"
+    },
+    "done": true
+  },
+  "blue_skies:enter_blinding_dungeon": {
+    "criteria": {
+      "entered_everdawn_blinding_dungeon": "2025-05-13 21:58:17 +0800"
+    },
+    "done": true
+  },
+  "blue_skies:progression/unlock_everdawn_blinding_key_trade": {
+    "criteria": {
+      "click_keystone": "2025-05-13 21:58:21 +0800"
+    },
+    "done": true
+  },
+  "blue_skies:everdawn/kill_bug": {
+    "criteria": {
+      "kill_venom_spider": "2025-05-13 22:00:28 +0800"
+    },
+    "done": false
+  },
+  "blue_skies:recipes/food/cooked_monitor_tail_from_smoking_monitor_tail": {
+    "criteria": {
+      "has_item": "2025-05-13 22:02:00 +0800"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/food/cooked_monitor_tail_from_campfire_cooking_monitor_tail": {
+    "criteria": {
+      "has_item": "2025-05-13 22:02:00 +0800"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/food/cooked_monitor_tail_from_smelting_monitor_tail": {
+    "criteria": {
+      "has_item": "2025-05-13 22:02:00 +0800"
     },
     "done": true
   },
